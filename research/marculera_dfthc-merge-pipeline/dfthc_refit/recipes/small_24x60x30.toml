@@ -1,0 +1,19 @@
+# The comparison arm: the public many-small-groups recipe pushed to 24 groups with the same
+# budget per drop. In our run it failed the gate (21.9 mHa at 10 bits); kept to reproduce that.
+
+seed = "group26"
+merge = 1
+shape = [24, 60, 30]
+
+[[train]]
+groups = 24
+fade = 2000
+fit = 150000
+lr_final = 1e-5
+
+[round]
+brot = 10
+
+[build]
+qrom = "four"
+shots = 64

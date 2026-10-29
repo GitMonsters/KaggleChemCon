@@ -1,0 +1,38 @@
+{
+  "id": "prvsiyan/verifier-guided-quantum-circuit-optimization",
+  "id_no": 140277915,
+  "title": "Verifier-Guided Quantum Circuit Optimization",
+  "code_file": "verifier-guided-quantum-circuit-optimization.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [],
+  "dataset_sources": [
+    "ahmedberatozer/df-thc-group-compression-factorization",
+    "mrmeows/qcc-1375-open-circuits",
+    "phucthaiv02/qcc-best-circuits",
+    "phucthaiv02/qcc-best-dqi",
+    "phucthaiv02/qcc-best-invsqrt-circuit",
+    "ahmedberatozer/vqcc-v8-components"
+  ],
+  "kernel_sources": [
+    "manwithacat/how-the-public-19-3-portfolio-works",
+    "lightningv08/bezout-schur-5-word-qrom",
+    "kirilltym/quantum-circuits-exact-gauge-5-word-qrom",
+    "somejoint/quantum-circuits-21-34-local-gm-fused-dqi",
+    "dmitriigluzdov/quantum-circuit-compilation-from-source",
+    "seshurajup/quantum-circuits-3-tasks-lb-19-2629",
+    "kozykappa/lb-21-38884-quantum-ai-q-circuits",
+    "alexchilton/21-39-lb-verified-three-task-portfolio",
+    "ahmedberatozer/quantum-ai-df-thc-group-compression"
+  ],
+  "competition_sources": [
+    "google-verifiable-quantum-circuit-compilation"
+  ],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:17b2fc7f27c25c6c2fd4230ec8e66097ab2b89fc88e1e4d6f338b72e1ee0bc3e",
+  "machine_shape": "None"
+}

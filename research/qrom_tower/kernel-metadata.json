@@ -1,0 +1,29 @@
+{
+  "id": "kirilltym/quantum-circuits-qrom-tower42",
+  "id_no": 140275741,
+  "title": "Quantum Circuits | QROM + Tower42",
+  "code_file": "quantum-circuits-qrom-tower42.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [],
+  "dataset_sources": [
+    "ahmedberatozer/vqcc-v8-components"
+  ],
+  "kernel_sources": [
+    "rudrabhaskar/highest-public-score-direct-polynomial-phasing",
+    "phucthaiv02/qcc-verified-portfolio-df-thc-retraining-study",
+    "kozykappa/quantum-ai-lb-score-15-33759",
+    "ahmedberatozer/quantum-ai-df-thc-group-compression",
+    "lightningv08/bezout-schur-5-word-qrom"
+  ],
+  "competition_sources": [
+    "google-verifiable-quantum-circuit-compilation"
+  ],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:17b2fc7f27c25c6c2fd4230ec8e66097ab2b89fc88e1e4d6f338b72e1ee0bc3e",
+  "machine_shape": "None"
+}

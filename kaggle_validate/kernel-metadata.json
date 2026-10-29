@@ -1,0 +1,14 @@
+{
+  "id": "evanpieser/validate-submission",
+  "title": "validate-submission",
+  "code_file": "validate.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "dataset_sources": ["evanpieser/competition-submission"],
+  "competition_sources": ["google-verifiable-quantum-circuit-compilation"],
+  "kernel_sources": []
+}

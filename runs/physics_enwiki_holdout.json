@@ -1,0 +1,40 @@
+{
+  "n_heldout": 400,
+  "checkpoints": {
+    "base": {
+      "path": "runs/small/best.pt",
+      "step": 99,
+      "vocab": 512,
+      "physics_ppl": 220.85,
+      "chunks": 11294
+    },
+    "physics2": {
+      "path": "runs/physics2/best.pt",
+      "step": 19,
+      "vocab": 512,
+      "physics_ppl": 130.58,
+      "chunks": 11294
+    },
+    "chat_atomic": {
+      "path": "runs/chat_atomic/best.pt",
+      "step": 499,
+      "vocab": 516,
+      "physics_ppl": 366.44,
+      "chunks": 11294
+    },
+    "chat_physics": {
+      "path": "runs/chat_physics/best.pt",
+      "step": 299,
+      "vocab": 516,
+      "physics_ppl": 376.6,
+      "chunks": 11294
+    },
+    "chat_physics_lm": {
+      "path": "runs/chat_physics_lm/best.pt",
+      "step": 499,
+      "vocab": 516,
+      "physics_ppl": 37.12,
+      "chunks": 11294
+    }
+  }
+}

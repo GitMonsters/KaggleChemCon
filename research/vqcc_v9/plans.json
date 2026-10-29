@@ -1,0 +1,201 @@
+{
+ "rows": 1366,
+ "per_pass": 4812,
+ "circuits": [
+  {
+   "k": 0,
+   "T": 321,
+   "Q": 128,
+   "relations": 61,
+   "paired": 232,
+   "per_stage": [
+    86,
+    76,
+    70
+   ],
+   "seconds": 112.4
+  },
+  {
+   "k": 1,
+   "T": 321,
+   "Q": 128,
+   "relations": 61,
+   "paired": 232,
+   "per_stage": [
+    89,
+    73,
+    70
+   ],
+   "seconds": 97.7
+  },
+  {
+   "k": 2,
+   "T": 321,
+   "Q": 128,
+   "relations": 61,
+   "paired": 232,
+   "per_stage": [
+    86,
+    70,
+    76
+   ],
+   "seconds": 162.9
+  },
+  {
+   "k": 3,
+   "T": 320,
+   "Q": 128,
+   "relations": 63,
+   "paired": 231,
+   "per_stage": [
+    83,
+    73,
+    75
+   ],
+   "seconds": 96.9
+  },
+  {
+   "k": 4,
+   "T": 321,
+   "Q": 128,
+   "relations": 61,
+   "paired": 232,
+   "per_stage": [
+    90,
+    71,
+    71
+   ],
+   "seconds": 159.4
+  },
+  {
+   "k": 5,
+   "T": 321,
+   "Q": 128,
+   "relations": 61,
+   "paired": 232,
+   "per_stage": [
+    84,
+    75,
+    73
+   ],
+   "seconds": 104.6
+  },
+  {
+   "k": 6,
+   "T": 320,
+   "Q": 128,
+   "relations": 63,
+   "paired": 231,
+   "per_stage": [
+    85,
+    74,
+    72
+   ],
+   "seconds": 112.4
+  },
+  {
+   "k": 7,
+   "T": 321,
+   "Q": 128,
+   "relations": 61,
+   "paired": 232,
+   "per_stage": [
+    84,
+    74,
+    74
+   ],
+   "seconds": 145.5
+  },
+  {
+   "k": 8,
+   "T": 321,
+   "Q": 128,
+   "relations": 61,
+   "paired": 232,
+   "per_stage": [
+    86,
+    76,
+    70
+   ],
+   "seconds": 153.0
+  },
+  {
+   "k": 9,
+   "T": 321,
+   "Q": 128,
+   "relations": 61,
+   "paired": 232,
+   "per_stage": [
+    86,
+    70,
+    76
+   ],
+   "seconds": 127.1
+  },
+  {
+   "k": 10,
+   "T": 321,
+   "Q": 128,
+   "relations": 61,
+   "paired": 232,
+   "per_stage": [
+    85,
+    76,
+    71
+   ],
+   "seconds": 163.0
+  },
+  {
+   "k": 11,
+   "T": 321,
+   "Q": 128,
+   "relations": 61,
+   "paired": 232,
+   "per_stage": [
+    84,
+    75,
+    73
+   ],
+   "seconds": 139.4
+  },
+  {
+   "k": 12,
+   "T": 321,
+   "Q": 128,
+   "relations": 61,
+   "paired": 232,
+   "per_stage": [
+    85,
+    75,
+    72
+   ],
+   "seconds": 126.7
+  },
+  {
+   "k": 13,
+   "T": 321,
+   "Q": 128,
+   "relations": 61,
+   "paired": 232,
+   "per_stage": [
+    87,
+    77,
+    68
+   ],
+   "seconds": 125.3
+  },
+  {
+   "k": 14,
+   "T": 320,
+   "Q": 128,
+   "relations": 63,
+   "paired": 231,
+   "per_stage": [
+    85,
+    76,
+    70
+   ],
+   "seconds": 121.5
+  }
+ ]
+}

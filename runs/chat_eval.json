@@ -1,0 +1,613 @@
+{
+  "checkpoints": {
+    "base": {
+      "path": "runs/small/best.pt",
+      "step": 99,
+      "params": 3286304,
+      "dolly_answer_ppl": 189.0,
+      "dolly_answer_tokens": 25288,
+      "upstream_answer_ppl": 225.45,
+      "upstream_answer_tokens": 27093,
+      "samples": [
+        {
+          "kind": "generic",
+          "q": "What is the capital of France?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the the the the      the    the the the thethe the  thethe the the the           the the      the"
+            },
+            {
+              "temp": 0.7,
+              "text": "be \" in ,    the and    the c a em an  mM. ed  for    . re    re we  a  and"
+            },
+            {
+              "temp": 0.7,
+              "text": "to the of to s  m re    . S the Sis d  ,c p s to the  a the    be of p ,m the"
+            },
+            {
+              "temp": 0.7,
+              "text": "in d c of en  to or  ic .edar , there and  .in c and w s  a p  a h   of thes is"
+            },
+            {
+              "temp": 0.9,
+              "text": "the of , c   b  and   inging d .\nsby of  rein and f in n .  theen  , ar ane , er"
+            },
+            {
+              "temp": 0.9,
+              "text": "en . the .    enans    dof  the ,c a  andMa  the re  it ,ing     f d the ,  ."
+            },
+            {
+              "temp": 0.9,
+              "text": "the as , is ed    is    , the s .in .  B, d the p gc ed m    re . i cbing es"
+            }
+          ]
+        },
+        {
+          "kind": "generic",
+          "q": "Give me one tip for learning a new language.",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the the    the the  the      the  the thethe    thethe"
+            },
+            {
+              "temp": 0.7,
+              "text": ". the    and .  the     al and the mthe    thea .    .      \n         f"
+            },
+            {
+              "temp": 0.7,
+              "text": "dal    the  to  the      pthe BA \"    fde     the             ed"
+            },
+            {
+              "temp": 0.7,
+              "text": ". M    s of  and   s  ,  , the \n   the\" the         the         a the"
+            },
+            {
+              "temp": 0.9,
+              "text": ".edan    . . en   g orm, zto the, an  pAures  l d seso d          b   n"
+            },
+            {
+              "temp": 0.9,
+              "text": ". a    s c  c     ic en the anda    hper f \n a al  ,     u ened  , iced"
+            },
+            {
+              "temp": 0.9,
+              "text": "g .o\n  the inal A si    ann in thes    wbe as gered or        e        a"
+            }
+          ]
+        },
+        {
+          "kind": "generic",
+          "q": "Hello, how are you today?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "thethe thethe the  the the the   the the the thethe the  thethe   the                   the"
+            },
+            {
+              "temp": 0.7,
+              "text": "pto the. w  to B Aed  of e that hand a  anofur  .  to  b m .     re   m ed ed"
+            },
+            {
+              "temp": 0.7,
+              "text": "the, inbe the  on by .   \" and mretoa the  ,the   in  it  A er e       s"
+            },
+            {
+              "temp": 0.7,
+              "text": "p, Min le al  s .   A the f. to the  reand   .  w en  s     .    en s"
+            },
+            {
+              "temp": 0.9,
+              "text": "fon\nandgmar e  a t   gh  , beA w  thethat   the inx  c it g    ed  , le  of"
+            },
+            {
+              "temp": 0.9,
+              "text": "inf of. of  , was de  l, beedsistw\" the  andthe , beuer   A A a   our     st A"
+            },
+            {
+              "temp": 0.9,
+              "text": "alb tobe the  the in to   the theent ,that as  .A   , al   ofation  es   inical  th   .ed"
+            }
+          ]
+        },
+        {
+          "kind": "generic",
+          "q": "Why is the sky blue?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "thethe   the the the       the the the thethe the  thethe     the                 the"
+            },
+            {
+              "temp": 0.7,
+              "text": "Aof  c, . .     \n the de , theis in  bepp      .  is      in s in and"
+            },
+            {
+              "temp": 0.7,
+              "text": ".g  a p. .  b    the of gin the in  .and and  m B p a and  v a to the  an"
+            },
+            {
+              "temp": 0.7,
+              "text": "thee   , , the       the in  . S to  the,  w  , f c       A    al b"
+            },
+            {
+              "temp": 0.9,
+              "text": "ur.c   m asuror th  eded . , to sthe to ing\ne .  mc to   u  it\n g s   the"
+            },
+            {
+              "temp": 0.9,
+              "text": ",.   A le to   es   s m b. theos  stcones  orur o  ed   ic  ic"
+            },
+            {
+              "temp": 0.9,
+              "text": "rethe   f . been  k   on \" be .\" h  cin  the  a c w    p  anded  ba  g b"
+            }
+          ]
+        },
+        {
+          "kind": "upstream",
+          "q": "What is electrons ?",
+          "reference": "Except now, most of the electrons were spat out upwards.",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the  thethe   the the       the the the thethe the  thethe  the"
+            },
+            {
+              "temp": 0.8,
+              "text": "g itthe.   and to    \n \na . the alS ,  Ac al  in  to  s      er p    s"
+            }
+          ]
+        },
+        {
+          "kind": "upstream",
+          "q": "What is known about compute ?",
+          "reference": "Compute, energy, data, or something deeper?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the   the the   the  the    the the the thethe the  thethe   the the"
+            },
+            {
+              "temp": 0.8,
+              "text": "b   w that  in l d    Mthatrst by p e  bm , be the  and   .    s s  .    ing"
+            }
+          ]
+        },
+        {
+          "kind": "upstream",
+          "q": "Give me an overview of coefficient .",
+          "reference": "Its diameter runs from negative one to one on the reflection coefficient plane.",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the  the  the            the  the thethe the  thethe  the  the"
+            },
+            {
+              "temp": 0.8,
+              "text": "the orB thetou w    m    Sis the the\" of  .A ised m   o     ed   c st  en  m"
+            }
+          ]
+        }
+      ]
+    },
+    "subword": {
+      "path": "runs/chat/best.pt",
+      "step": 499,
+      "params": 3286304,
+      "dolly_answer_ppl": 50.0,
+      "dolly_answer_tokens": 25288,
+      "upstream_answer_ppl": 47.91,
+      "upstream_answer_tokens": 27093,
+      "samples": [
+        {
+          "kind": "generic",
+          "q": "What is the capital of France?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the the the the the the the in the the the the the the the the the the the the the the the the the the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "for of s of be is and or in Nendrest gend|>f His fe A Brep and the is be sgreer Csitu|>"
+            },
+            {
+              "temp": 0.7,
+              "text": "gan the the a of fles Bcy. a Amle Soe in and the cy Pos and a Dat fe and fend||>"
+            },
+            {
+              "temp": 0.7,
+              "text": "the inse is frea mua Bat ga N>w<endam in fs end>B>and are for Hardy Sa The g|icle of"
+            },
+            {
+              "temp": 0.9,
+              "text": "Sper med dam are sars. andian wc>F>M.\nfcing of thatsity,s oflerming a Fingon\nof fendal"
+            },
+            {
+              "temp": 0.9,
+              "text": "The a flres T>deding Dglc<or the B||>Hican  Rin for mendinaring a inallana f the to Bend"
+            },
+            {
+              "temp": 0.9,
+              "text": "rea the Rpt Preendend>|>andc is,sarendend||>The the Sta Asa tos are waned the in to, p|is"
+            }
+          ]
+        },
+        {
+          "kind": "generic",
+          "q": "Give me one tip for learning a new language.",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the the in the the the the the the the the the the the the the the the the the the the the the the the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "is the of stat - B Lreuan the mon and Med are of Ds re cendand to a m., the D s. the wh"
+            },
+            {
+              "temp": 0.7,
+              "text": "the s a par Sct Cp the Se end||||>Rm bee\nRany of the toth bal the a D<oer<|||>"
+            },
+            {
+              "temp": 0.7,
+              "text": "pen wig the of The Serle and the Lanuo to the mua Pason Sener are the cms Mre. mor Wa"
+            },
+            {
+              "temp": 0.9,
+              "text": "Sreic.tt in bin to and to s - are -<|ar Tandes -ming tess bendendend|end|ere is ping be c|end"
+            },
+            {
+              "temp": 0.9,
+              "text": "bar - Ptial be:st The Sicgled >end||>anst crbualerg ||end|||>the are Ttr, in Aonp"
+            },
+            {
+              "temp": 0.9,
+              "text": "Des cre sy han a den -piing end|>are a to the The. a The Gendatcm<||end>you Penlreo bend"
+            }
+          ]
+        },
+        {
+          "kind": "generic",
+          "q": "Hello, how are you today?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the the the the the the the the in the the the the the the the the the the the the the the the the the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "to the pen the be of in reed the re. for and for ty s The in the ppicen\nF|end|||>g mgus g"
+            },
+            {
+              "temp": 0.7,
+              "text": "Se the fns are in Nal g and to the b||rre d||end|end||||||end||||o<||>sg. is Cst"
+            },
+            {
+              "temp": 0.7,
+              "text": "dst the - a sicis A is s are f>M|>the Lhendcer<|>s and pon Cca and a cgy is co"
+            },
+            {
+              "temp": 0.9,
+              "text": "- in Mers: a moron, the the Msoulduendend|end||>wesco Prean is Brey\na cendmic in R ans"
+            },
+            {
+              "temp": 0.9,
+              "text": "Nar, a be and bis b>le a toy the Dis. fa diisy are pin Prli, to s Muendc>A. is"
+            },
+            {
+              "temp": 0.9,
+              "text": "are the the isl coerst is Thees sa m||end>|||us sicstes bing and s.co Nsta be Hend c||"
+            }
+          ]
+        },
+        {
+          "kind": "generic",
+          "q": "Why is the sky blue?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "Sar are the the Plebk are cal Pop, and Rar Deon the in and the Camre is of of the Su>the pic"
+            },
+            {
+              "temp": 0.7,
+              "text": "the the Wone of cas sst A Smson a<end||end||>s and the mess Nor for Wanis Hin be in S"
+            },
+            {
+              "temp": 0.7,
+              "text": "and Bces Prral Tlss, in for A Palal cendend|>of be p and Ado Wice in to of Falmi<is"
+            },
+            {
+              "temp": 0.9,
+              "text": "is The sa andit. Lar Gic.al be, AendAed G|fs Aeneon fe. is is a of in deran, Aye"
+            },
+            {
+              "temp": 0.9,
+              "text": "pal the be\nfor, fstk. De in in rees<lit dary the is Bbrm. Mal - is Aic, wendin is c"
+            },
+            {
+              "temp": 0.9,
+              "text": "As: Bara and to to to the is bay the P is gle in -rat Gendmi<||||>theucgo Can be are"
+            }
+          ]
+        },
+        {
+          "kind": "upstream",
+          "q": "What is calculation?",
+          "reference": "You can do the calculation in an afternoon.",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the"
+            },
+            {
+              "temp": 0.8,
+              "text": "Aiians, gyuar Cber to issmnat P|en,m is in the is is fing Ba ingcu pble camk m"
+            }
+          ]
+        },
+        {
+          "kind": "upstream",
+          "q": "What is scientist?",
+          "reference": "Chief scientist Jacob Pachaki said on OpenAI's podcast last summer that the goal is systems that work a problem for hours or days rather",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "|||||||> the the the the the the the the the the the the in |||< the the the the the the the the the the"
+            },
+            {
+              "temp": 0.8,
+              "text": "|>Les the Theatic and psten and me|>rees of fed sting do s, be Ca Rcal far  Senden,:"
+            }
+          ]
+        },
+        {
+          "kind": "upstream",
+          "q": "Give me an overview of possibilities .",
+          "reference": "By aggressively auditing spatial inputs and maintaining strict parity balance, the engine takes unordered possibilities and forces them into stable",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the the the the the the in the the the the the the the the the the the the the the the the the the the the the the the"
+            },
+            {
+              "temp": 0.8,
+              "text": "is gary the cg, |endend|>m Rans,, cen The is\nssuor to and gemic, to dat Ben A for the"
+            }
+          ]
+        }
+      ]
+    },
+    "atomic": {
+      "path": "runs/chat_atomic/best.pt",
+      "step": 499,
+      "params": 3287328,
+      "dolly_answer_ppl": 53.88,
+      "dolly_answer_tokens": 25912,
+      "upstream_answer_ppl": 56.0,
+      "upstream_answer_tokens": 25093,
+      "unigram_baseline": {
+        "dolly": 3586262.67,
+        "upstream": 2607340.54
+      },
+      "samples": [
+        {
+          "kind": "generic",
+          "q": "What is the capital of France?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the the an the  the the the the the the the the the the the the the the the in the the the the the the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "The Fgin a mle a, for T the Mle, Male, to to Poring De dre car S that fat. is frere"
+            },
+            {
+              "temp": 0.7,
+              "text": "Ma for for por muk of the a Breal and Cpon s\nto Mes Nany Sfes wreal and in a ming dic"
+            },
+            {
+              "temp": 0.7,
+              "text": "to the os c the pam the Ry Ban for in car Cot Sar a Na a bas the Rf creral for ban"
+            },
+            {
+              "temp": 0.9,
+              "text": "Sed can to  ffses thes\nfhstorciticuer of Menstks Sthe pfoal glm: Fed are are to of,"
+            },
+            {
+              "temp": 0.9,
+              "text": "arele cene Wesallpy  T are to the the Dorlitarer mam is gon to o.s. of a Sues Fiam to"
+            },
+            {
+              "temp": 0.9,
+              "text": "the. aing and en, and A the Fonuen ofy. are palrebone is are the Teering of a gen. iss the N"
+            }
+          ]
+        },
+        {
+          "kind": "generic",
+          "q": "Give me one tip for learning a new language.",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "in the that the rear more pen. a bi Ser, be, The Dal in Ping - is a are of - Aen in fr"
+            },
+            {
+              "temp": 0.7,
+              "text": "ban  fan cis a Pasoan a fon the the ms is and bes f s to Muues is and to the are c"
+            },
+            {
+              "temp": 0.7,
+              "text": "esle is Ce the to a the Gegle, the A is is - s Moin that f is cric Hy bes are the the"
+            },
+            {
+              "temp": 0.9,
+              "text": "es repic the Dpmori Ham Cst to Tar to is of Ra: - Tmuica Be dark Mba are to the"
+            },
+            {
+              "temp": 0.9,
+              "text": "a D, Wucen: Ast fes"
+            },
+            {
+              "temp": 0.9,
+              "text": "san\nand\nthe Siy that gsy dry A is issgatth Fit, - Lanmireg. for Hanes par Pboicg"
+            }
+          ]
+        },
+        {
+          "kind": "generic",
+          "q": "Hello, how are you today?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the a the the e the  the the the the the the the the the the the the the the the in the the the the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "and ron cmon D the the to is the the and are the and Ty Men Ain the that Holis for the gy Aon re"
+            },
+            {
+              "temp": 0.7,
+              "text": "a at ser and Mitk Aaran Tan and to to is The the are are Sna the be of to the gan a the Ma"
+            },
+            {
+              "temp": 0.7,
+              "text": "is it mloed the re Sy, the a - a a Mfat Maso colo. of the Fa Tolnar\nSarion d the"
+            },
+            {
+              "temp": 0.9,
+              "text": "bes\npisy baer\nPlam Duis Lean, - cleing Fes sgor gmle"
+            },
+            {
+              "temp": 0.9,
+              "text": "T panreed par the oma in is Garer ws car to s: Ser of the Mole a the The Mpor, Hal"
+            },
+            {
+              "temp": 0.9,
+              "text": "Fb, se and the A Dolen is sa\nmy"
+            }
+          ]
+        },
+        {
+          "kind": "generic",
+          "q": "Why is the sky blue?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the an the the e the  the the the the the the the the the the the the the the the in the the the the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "and is and Hmroy can Pper and and cy a Mor in\ncon - Ai. B to can Bn Bing The s,"
+            },
+            {
+              "temp": 0.7,
+              "text": "San of s bink the Fe the sta bia ced Ho, is the Dand be Fcan Fanlpy M Bitor coa"
+            },
+            {
+              "temp": 0.7,
+              "text": "are rpor the er ret for a to be the The is of Sa. the the Des fer to is d He s Py Be"
+            },
+            {
+              "temp": 0.9,
+              "text": "and i and cices Cor dtg: mis is a a. b lan por are reing the sa Sa oflry. to e"
+            },
+            {
+              "temp": 0.9,
+              "text": "Ny ply Greerg it is Hit, and the"
+            },
+            {
+              "temp": 0.9,
+              "text": "go Sron -tht and mat cit in win wile and to and ce Wana are and of to pe pik, fhh"
+            }
+          ]
+        },
+        {
+          "kind": "upstream",
+          "q": "What makes expected interesting?",
+          "reference": "The answer to this, however, came sooner than expected.",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "in the the an the  the the the the the the the a the the the the the the the in the the the the the the the the the"
+            },
+            {
+              "temp": 0.8,
+              "text": "and the Tsar, Men aes a s Mloal Pitner Lyle are Wgal the bespe cpe to the Ht: are"
+            }
+          ]
+        },
+        {
+          "kind": "upstream",
+          "q": "What should I know about problem?",
+          "reference": "And this is a meta problem.",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the"
+            },
+            {
+              "temp": 0.8,
+              "text": "is lre rea ands Lsr the The the Dk wlan of Coo The  Wen peen morenion of mice mon sa"
+            }
+          ]
+        },
+        {
+          "kind": "upstream",
+          "q": "What makes self-improvement interesting?",
+          "reference": "But recursive self-improvement is also one of the least understood pathways.",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the an the  the the the the the the the the the a the the the the the in the the the the the the the the the the the"
+            },
+            {
+              "temp": 0.8,
+              "text": "of in to ming in is the the clmamalsgss wrey. pile"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "probes": [
+    [
+      "generic",
+      "What is the capital of France?"
+    ],
+    [
+      "generic",
+      "Give me one tip for learning a new language."
+    ],
+    [
+      "generic",
+      "Hello, how are you today?"
+    ],
+    [
+      "generic",
+      "Why is the sky blue?"
+    ]
+  ],
+  "config": {
+    "checkpoints": "base=runs/small/best.pt,subword=runs/chat/best.pt,atomic=runs/chat_atomic/best.pt",
+    "dolly": "C:\\Users\\STRH MH APT C\\AppData\\Local\\Temp\\opencode\\dolly.jsonl",
+    "ctx": 320,
+    "n": 500,
+    "samples": 3,
+    "device": "cpu",
+    "threads": 4,
+    "out": "runs/chat_eval.json",
+    "seed": 7
+  }
+}

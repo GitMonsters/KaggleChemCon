@@ -1,0 +1,12 @@
+import re
+src = open('research/prvsiyan/verifier-guided-quantum-circuit-optimization.py').read()
+costs = re.findall(r"'cost': ([\d.]+)", src)
+print('Unique costs found:', sorted(set(costs), key=float))
+labels = re.findall(r"'label': '([^']+)'", src)
+print('Unique labels:', sorted(set(labels)))
+sources = re.findall(r"'source': '([^']+)'", src)
+print('Unique sources:', sorted(set(sources)))
+tasks = re.findall(r"'task': '([^']+)'", src)
+print('Unique tasks:', sorted(set(tasks)))
+statuses = re.findall(r"'status': '([^']+)'", src)
+print('Unique statuses:', sorted(set(statuses)))

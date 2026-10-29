@@ -1,0 +1,164 @@
+[
+  {
+    "brot": 8,
+    "passes_accuracy": false,
+    "metrics": {
+      "error_1": 0.05235105386670813,
+      "error_2": 0.15538255247657,
+      "Lambda": 309.33149222907275,
+      "E_SOS": -22145.11437974027,
+      "E_gap": 4.841029740269732,
+      "lambda_eff": 54.51174495482361,
+      "gap_in_domain": true,
+      "Lambda_floor": 49.0,
+      "E_gap_floor": 3.914898
+    },
+    "heuristic_toffoli": 12557,
+    "heuristic_persistent_qubits": 90,
+    "heuristic_temporary_qubits": 544
+  },
+  {
+    "brot": 9,
+    "passes_accuracy": false,
+    "metrics": {
+      "error_1": 0.02515976982969471,
+      "error_2": 0.0766720830694505,
+      "Lambda": 308.7126370736213,
+      "E_SOS": -22144.495524584818,
+      "E_gap": 4.222174584818276,
+      "lambda_eff": 50.88271359021902,
+      "gap_in_domain": true,
+      "Lambda_floor": 49.0,
+      "E_gap_floor": 3.914898
+    },
+    "heuristic_toffoli": 12857,
+    "heuristic_persistent_qubits": 90,
+    "heuristic_temporary_qubits": 544
+  },
+  {
+    "brot": 10,
+    "passes_accuracy": false,
+    "metrics": {
+      "error_1": 0.013969398961739038,
+      "error_2": 0.040014621461046555,
+      "Lambda": 308.50736916653796,
+      "E_SOS": -22144.290256677734,
+      "E_gap": 4.016906677734369,
+      "lambda_eff": 49.622122923279186,
+      "gap_in_domain": true,
+      "Lambda_floor": 49.0,
+      "E_gap_floor": 3.914898
+    },
+    "heuristic_toffoli": 13157,
+    "heuristic_persistent_qubits": 90,
+    "heuristic_temporary_qubits": 544
+  },
+  {
+    "brot": 11,
+    "passes_accuracy": false,
+    "metrics": {
+      "error_1": 0.006480494833042927,
+      "error_2": 0.025035371586624153,
+      "Lambda": 308.45874138217346,
+      "E_SOS": -22144.24162889337,
+      "E_gap": 3.968278893371462,
+      "lambda_eff": 49.31889484193693,
+      "gap_in_domain": true,
+      "Lambda_floor": 49.0,
+      "E_gap_floor": 3.914898
+    },
+    "heuristic_toffoli": 13457,
+    "heuristic_persistent_qubits": 90,
+    "heuristic_temporary_qubits": 544
+  },
+  {
+    "brot": 12,
+    "passes_accuracy": true,
+    "metrics": {
+      "error_1": 0.00318519503179388,
+      "error_2": 0.018639570630974107,
+      "Lambda": 308.4559397330944,
+      "E_SOS": -22144.23882724429,
+      "E_gap": 3.965477244291833,
+      "lambda_eff": 49.30136925057438,
+      "gap_in_domain": true,
+      "Lambda_floor": 49.0,
+      "E_gap_floor": 3.914898
+    },
+    "heuristic_toffoli": 13757,
+    "heuristic_persistent_qubits": 90,
+    "heuristic_temporary_qubits": 544
+  },
+  {
+    "brot": 13,
+    "passes_accuracy": true,
+    "metrics": {
+      "error_1": 0.0015931970593354324,
+      "error_2": 0.01679730754178055,
+      "Lambda": 308.44710396415286,
+      "E_SOS": -22144.22999147535,
+      "E_gap": 3.9566414753498975,
+      "lambda_eff": 49.246057682090644,
+      "gap_in_domain": true,
+      "Lambda_floor": 49.0,
+      "E_gap_floor": 3.914898
+    },
+    "heuristic_toffoli": 14057,
+    "heuristic_persistent_qubits": 90,
+    "heuristic_temporary_qubits": 544
+  },
+  {
+    "brot": 14,
+    "passes_accuracy": true,
+    "metrics": {
+      "error_1": 0.0007864677249524683,
+      "error_2": 0.01629343888540087,
+      "Lambda": 308.44581235327377,
+      "E_SOS": -22144.22869986447,
+      "E_gap": 3.955349864470918,
+      "lambda_eff": 49.2379671760108,
+      "gap_in_domain": true,
+      "Lambda_floor": 49.0,
+      "E_gap_floor": 3.914898
+    },
+    "heuristic_toffoli": 14357,
+    "heuristic_persistent_qubits": 90,
+    "heuristic_temporary_qubits": 544
+  },
+  {
+    "brot": 15,
+    "passes_accuracy": true,
+    "metrics": {
+      "error_1": 0.0004302765117821069,
+      "error_2": 0.0161857342096251,
+      "Lambda": 308.4473648620351,
+      "E_SOS": -22144.230252373232,
+      "E_gap": 3.9569023732328787,
+      "lambda_eff": 49.247691760007726,
+      "gap_in_domain": true,
+      "Lambda_floor": 49.0,
+      "E_gap_floor": 3.914898
+    },
+    "heuristic_toffoli": 14657,
+    "heuristic_persistent_qubits": 90,
+    "heuristic_temporary_qubits": 1087
+  },
+  {
+    "brot": 16,
+    "passes_accuracy": true,
+    "metrics": {
+      "error_1": 0.0002098890623856526,
+      "error_2": 0.016141130112614237,
+      "Lambda": 308.44924030149207,
+      "E_SOS": -22144.232127812687,
+      "E_gap": 3.958777812687913,
+      "lambda_eff": 49.25943661798974,
+      "gap_in_domain": true,
+      "Lambda_floor": 49.0,
+      "E_gap_floor": 3.914898
+    },
+    "heuristic_toffoli": 14957,
+    "heuristic_persistent_qubits": 90,
+    "heuristic_temporary_qubits": 1087
+  }
+]

@@ -1,0 +1,888 @@
+{
+  "facts": [
+    {
+      "prompt": "Newton's second law says force equals mass times ",
+      "accept": [
+        "acceleration"
+      ]
+    },
+    {
+      "prompt": "The SI unit of force is the ",
+      "accept": [
+        "newton"
+      ]
+    },
+    {
+      "prompt": "The SI unit of energy is the ",
+      "accept": [
+        "joule"
+      ]
+    },
+    {
+      "prompt": "The SI unit of power is the ",
+      "accept": [
+        "watt"
+      ]
+    },
+    {
+      "prompt": "The SI unit of electric current is the ",
+      "accept": [
+        "ampere",
+        "amp"
+      ]
+    },
+    {
+      "prompt": "The speed of light in a vacuum is about ",
+      "accept": [
+        "300",
+        "299",
+        "3.0"
+      ]
+    },
+    {
+      "prompt": "The force that pulls objects toward the Earth is called ",
+      "accept": [
+        "gravity",
+        "gravitation"
+      ]
+    },
+    {
+      "prompt": "Energy cannot be created or destroyed, only ",
+      "accept": [
+        "transferred",
+        "converted",
+        "changed",
+        "transformed"
+      ]
+    },
+    {
+      "prompt": "The acceleration of a falling object due to gravity is about ",
+      "accept": [
+        "9.8",
+        "10",
+        "0.98"
+      ]
+    },
+    {
+      "prompt": "Water boils at ",
+      "accept": [
+        "100",
+        "one hundred"
+      ]
+    },
+    {
+      "prompt": "Water freezes at ",
+      "accept": [
+        "0",
+        "zero"
+      ]
+    },
+    {
+      "prompt": "The temperature at which water freezes in the Celsius scale is ",
+      "accept": [
+        "0",
+        "zero"
+      ]
+    },
+    {
+      "prompt": "Light travels faster than ",
+      "accept": [
+        "sound"
+      ]
+    },
+    {
+      "prompt": "The Earth goes around the ",
+      "accept": [
+        "sun",
+        "solar system",
+        "galaxy"
+      ]
+    },
+    {
+      "prompt": "In physics, the product of mass and velocity is ",
+      "accept": [
+        "momentum"
+      ]
+    },
+    {
+      "prompt": "A push or a pull on an object is called a ",
+      "accept": [
+        "force"
+      ]
+    },
+    {
+      "prompt": "The resistance of a moving object to a change in motion is ",
+      "accept": [
+        "inertia"
+      ]
+    },
+    {
+      "prompt": "The energy of motion is called ",
+      "accept": [
+        "kinetic"
+      ]
+    },
+    {
+      "prompt": "The energy stored in an object due to its position is ",
+      "accept": [
+        "potential"
+      ]
+    },
+    {
+      "prompt": "The number of protons in an atom is its ",
+      "accept": [
+        "atomic number",
+        "atomic"
+      ]
+    }
+  ],
+  "checkpoints": {
+    "base": {
+      "path": "runs/small/best.pt",
+      "step": 99,
+      "hits": 0,
+      "total": 40,
+      "accuracy": 0.0,
+      "rows": [
+        {
+          "prompt": "Newton's second law says force equals mass times ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "the           "
+        },
+        {
+          "prompt": "Newton's second law says force equals mass times ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "c           "
+        },
+        {
+          "prompt": "The SI unit of force is the ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "      the the the "
+        },
+        {
+          "prompt": "The SI unit of force is the ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "     , of S b"
+        },
+        {
+          "prompt": "The SI unit of energy is the ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "    the the the the "
+        },
+        {
+          "prompt": "The SI unit of energy is the ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "   in  f an re "
+        },
+        {
+          "prompt": "The SI unit of power is the ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "     the the the the"
+        },
+        {
+          "prompt": "The SI unit of power is the ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": " \n  in  Sor s "
+        },
+        {
+          "prompt": "The SI unit of electric current is the ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "the the the       "
+        },
+        {
+          "prompt": "The SI unit of electric current is the ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "for , cp it    "
+        },
+        {
+          "prompt": "The speed of light in a vacuum is about ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "the the the the     "
+        },
+        {
+          "prompt": "The speed of light in a vacuum is about ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "the , and , en   "
+        },
+        {
+          "prompt": "The force that pulls objects toward the Earth is called ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "            "
+        },
+        {
+          "prompt": "The force that pulls objects toward the Earth is called ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "   t        "
+        },
+        {
+          "prompt": "Energy cannot be created or destroyed, only ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "the the thethe      "
+        },
+        {
+          "prompt": "Energy cannot be created or destroyed, only ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": ", f andc      "
+        },
+        {
+          "prompt": "The acceleration of a falling object due to gravity is about ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "    the the   the "
+        },
+        {
+          "prompt": "The acceleration of a falling object due to gravity is about ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "   A  of   S "
+        },
+        {
+          "prompt": "Water boils at ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "the the         "
+        },
+        {
+          "prompt": "Water boils at ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "m .   ed     "
+        },
+        {
+          "prompt": "Water freezes at ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "the           "
+        },
+        {
+          "prompt": "Water freezes at ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "in           "
+        },
+        {
+          "prompt": "The temperature at which water freezes in the Celsius scale is ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "      the  the  "
+        },
+        {
+          "prompt": "The temperature at which water freezes in the Celsius scale is ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "      of  st  "
+        },
+        {
+          "prompt": "Light travels faster than ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "            "
+        },
+        {
+          "prompt": "Light travels faster than ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "            "
+        },
+        {
+          "prompt": "The Earth goes around the ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "            "
+        },
+        {
+          "prompt": "The Earth goes around the ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "            "
+        },
+        {
+          "prompt": "In physics, the product of mass and velocity is ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "  thethe       the"
+        },
+        {
+          "prompt": "In physics, the product of mass and velocity is ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "  fs       of"
+        },
+        {
+          "prompt": "A push or a pull on an object is called a ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "            "
+        },
+        {
+          "prompt": "A push or a pull on an object is called a ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "            "
+        },
+        {
+          "prompt": "The resistance of a moving object to a change in motion is ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": " the the the   the  "
+        },
+        {
+          "prompt": "The resistance of a moving object to a change in motion is ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": " for in the   le  "
+        },
+        {
+          "prompt": "The energy of motion is called ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "  the the the the the "
+        },
+        {
+          "prompt": "The energy of motion is called ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": " the c is the and ,"
+        },
+        {
+          "prompt": "The energy stored in an object due to its position is ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "            "
+        },
+        {
+          "prompt": "The energy stored in an object due to its position is ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "            "
+        },
+        {
+          "prompt": "The number of protons in an atom is its ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "the the the the     "
+        },
+        {
+          "prompt": "The number of protons in an atom is its ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": ". of , ,     "
+        }
+      ]
+    },
+    "physics2": {
+      "path": "runs/physics2/best.pt",
+      "step": 19,
+      "hits": 0,
+      "total": 40,
+      "accuracy": 0.0,
+      "rows": [
+        {
+          "prompt": "Newton's second law says force equals mass times ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "the           "
+        },
+        {
+          "prompt": "Newton's second law says force equals mass times ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "ande          "
+        },
+        {
+          "prompt": "The SI unit of force is the ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "           the"
+        },
+        {
+          "prompt": "The SI unit of force is the ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "   t     s c"
+        },
+        {
+          "prompt": "The SI unit of energy is the ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "         the the"
+        },
+        {
+          "prompt": "The SI unit of energy is the ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "        en d "
+        },
+        {
+          "prompt": "The SI unit of power is the ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "          the "
+        },
+        {
+          "prompt": "The SI unit of power is the ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "         s\nm"
+        },
+        {
+          "prompt": "The SI unit of electric current is the ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "  the the       "
+        },
+        {
+          "prompt": "The SI unit of electric current is the ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "  the , a     "
+        },
+        {
+          "prompt": "The speed of light in a vacuum is about ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "   the the      "
+        },
+        {
+          "prompt": "The speed of light in a vacuum is about ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "   . fof s   "
+        },
+        {
+          "prompt": "The force that pulls objects toward the Earth is called ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "            "
+        },
+        {
+          "prompt": "The force that pulls objects toward the Earth is called ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "on  ar        "
+        },
+        {
+          "prompt": "Energy cannot be created or destroyed, only ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "  the thethe      "
+        },
+        {
+          "prompt": "Energy cannot be created or destroyed, only ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": " d . p      "
+        },
+        {
+          "prompt": "The acceleration of a falling object due to gravity is about ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "            "
+        },
+        {
+          "prompt": "The acceleration of a falling object due to gravity is about ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "t s s     y "
+        },
+        {
+          "prompt": "Water boils at ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "the the         "
+        },
+        {
+          "prompt": "Water boils at ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "\" re  s      "
+        },
+        {
+          "prompt": "Water freezes at ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "the           "
+        },
+        {
+          "prompt": "Water freezes at ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "to       ed  s"
+        },
+        {
+          "prompt": "The temperature at which water freezes in the Celsius scale is ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "      the  the  "
+        },
+        {
+          "prompt": "The temperature at which water freezes in the Celsius scale is ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": " m    fg l  "
+        },
+        {
+          "prompt": "Light travels faster than ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "            "
+        },
+        {
+          "prompt": "Light travels faster than ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": " ing          "
+        },
+        {
+          "prompt": "The Earth goes around the ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "            "
+        },
+        {
+          "prompt": "The Earth goes around the ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "      m     "
+        },
+        {
+          "prompt": "In physics, the product of mass and velocity is ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "  thethe        "
+        },
+        {
+          "prompt": "In physics, the product of mass and velocity is ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "a ofp      or "
+        },
+        {
+          "prompt": "A push or a pull on an object is called a ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "            "
+        },
+        {
+          "prompt": "A push or a pull on an object is called a ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "    es      e"
+        },
+        {
+          "prompt": "The resistance of a moving object to a change in motion is ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": " the          "
+        },
+        {
+          "prompt": "The resistance of a moving object to a change in motion is ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "f      e n  "
+        },
+        {
+          "prompt": "The energy of motion is called ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "         the the"
+        },
+        {
+          "prompt": "The energy of motion is called ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "\n  \n  m w s "
+        },
+        {
+          "prompt": "The energy stored in an object due to its position is ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "            "
+        },
+        {
+          "prompt": "The energy stored in an object due to its position is ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": " a  y       "
+        },
+        {
+          "prompt": "The number of protons in an atom is its ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "    the the     "
+        },
+        {
+          "prompt": "The number of protons in an atom is its ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "    ps the er  "
+        }
+      ]
+    },
+    "chat_physics": {
+      "path": "runs/chat_physics/best.pt",
+      "step": 299,
+      "hits": 0,
+      "total": 40,
+      "accuracy": 0.0,
+      "rows": [
+        {
+          "prompt": "Newton's second law says force equals mass times ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "the  the the the the the"
+        },
+        {
+          "prompt": "Newton's second law says force equals mass times ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": " w a cuan gic<|end|>"
+        },
+        {
+          "prompt": "The SI unit of force is the ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "the the the the the the "
+        },
+        {
+          "prompt": "The SI unit of force is the ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "W, the bo  a D"
+        },
+        {
+          "prompt": "The SI unit of energy is the ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "the the the the the the "
+        },
+        {
+          "prompt": "The SI unit of energy is the ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "Bes - a in be "
+        },
+        {
+          "prompt": "The SI unit of power is the ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "the the the the the the "
+        },
+        {
+          "prompt": "The SI unit of power is the ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "and a the Ted is The"
+        },
+        {
+          "prompt": "The SI unit of electric current is the ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "the the the  the the the"
+        },
+        {
+          "prompt": "The SI unit of electric current is the ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "gnal Gto l isber"
+        },
+        {
+          "prompt": "The speed of light in a vacuum is about ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "the the the the the the "
+        },
+        {
+          "prompt": "The speed of light in a vacuum is about ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "med - BS  the a"
+        },
+        {
+          "prompt": "The force that pulls objects toward the Earth is called ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": " the the in the the the"
+        },
+        {
+          "prompt": "The force that pulls objects toward the Earth is called ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": ". lep dat the is "
+        },
+        {
+          "prompt": "Energy cannot be created or destroyed, only ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "the the the the a the "
+        },
+        {
+          "prompt": "Energy cannot be created or destroyed, only ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "ci. the to s in "
+        },
+        {
+          "prompt": "The acceleration of a falling object due to gravity is about ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "in the the the a the "
+        },
+        {
+          "prompt": "The acceleration of a falling object due to gravity is about ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "in are The Ter m a"
+        },
+        {
+          "prompt": "Water boils at ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "the in         "
+        },
+        {
+          "prompt": "Water boils at ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "a Tan to  bs ,"
+        },
+        {
+          "prompt": "Water freezes at ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "a a a a a a "
+        },
+        {
+          "prompt": "Water freezes at ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "e cuic c ol le "
+        },
+        {
+          "prompt": "The temperature at which water freezes in the Celsius scale is ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "the the the the the the "
+        },
+        {
+          "prompt": "The temperature at which water freezes in the Celsius scale is ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "Se. is Sa the be"
+        },
+        {
+          "prompt": "Light travels faster than ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "  e e   e e "
+        },
+        {
+          "prompt": "Light travels faster than ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "on a l. o c, "
+        },
+        {
+          "prompt": "The Earth goes around the ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "the the the the the the "
+        },
+        {
+          "prompt": "The Earth goes around the ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "San in N a ci "
+        },
+        {
+          "prompt": "In physics, the product of mass and velocity is ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "the the the a in the "
+        },
+        {
+          "prompt": "In physics, the product of mass and velocity is ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "the beof A. ma D"
+        },
+        {
+          "prompt": "A push or a pull on an object is called a ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "the the the the the the "
+        },
+        {
+          "prompt": "A push or a pull on an object is called a ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "mfmle Con, fat "
+        },
+        {
+          "prompt": "The resistance of a moving object to a change in motion is ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "the the the the the the "
+        },
+        {
+          "prompt": "The resistance of a moving object to a change in motion is ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "Theon is the and pl "
+        },
+        {
+          "prompt": "The energy of motion is called ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "the the the the the the "
+        },
+        {
+          "prompt": "The energy of motion is called ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "and crees fre bat,"
+        },
+        {
+          "prompt": "The energy stored in an object due to its position is ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "a the in in the the "
+        },
+        {
+          "prompt": "The energy stored in an object due to its position is ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "the the fa and the M"
+        },
+        {
+          "prompt": "The number of protons in an atom is its ",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "the the the the  the in"
+        },
+        {
+          "prompt": "The number of protons in an atom is its ",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "is and of Ta in n"
+        }
+      ]
+    }
+  }
+}

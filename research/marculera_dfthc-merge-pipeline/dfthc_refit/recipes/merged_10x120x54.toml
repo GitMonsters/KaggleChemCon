@@ -1,0 +1,68 @@
+# The published result: 10 merged groups of 120 vectors and 54 copies, 3.97x the reference.
+# Seed: the public group-compression (26, 60, 30) factorization, merged in pairs to (13, 120, 60).
+# About 3.5 hours of training on a Kaggle T4 (~16 ms per step), then ~15 minutes of rounding and
+# ~5 minutes of polish, refinement and verification on a CPU.
+
+seed = "group26"
+merge = 2
+shape = [10, 120, 54]
+start_copies = 60       # after merging pairs of 30-copy groups
+
+# Drop one merged group at a time: a 2,000-step fade, then 150,000 steps (error_2 before rounding:
+# 12.4, 15.1 and 16.6 mHa).
+[[train]]
+groups = 12
+fade = 2000
+fit = 150000
+lr_final = 1e-5
+
+[[train]]
+groups = 11
+fade = 2000
+fit = 150000
+lr_final = 1e-5
+
+[[train]]
+groups = 10
+fade = 2000
+fit = 150000
+lr_final = 1e-5
+
+# Keep training at 10 groups (fresh optimizer, warm-up): 15.7 mHa.
+[[train]]
+groups = 10
+fit = 150000
+lr = 3e-4
+lr_final = 2e-6
+warmup = 300
+
+# Cut 6 copies per group (faded out in each group's SVD basis), then refit: 16.2 mHa.
+[[train]]
+groups = 10
+copies = 54
+fade = 2000
+fit = 150000
+lr = 3e-4
+lr_final = 2e-6
+warmup = 300
+
+# Progressive 10-bit rounding with long refits: 19.95 mHa (the gate is 20).
+[round]
+brot = 10
+stage_steps = 3000
+final_steps = 8000
+
+# Exact coordinate descent on the rounded words: 19.57 mHa.
+[polish]
+sweeps = 4
+
+[refine]
+rounds = 6
+
+# Refit w and W at fixed words: E_gap drops to the gate's floor, lambda_eff 49.2 -> 48.2.
+[refit]
+target = 19.92
+
+[build]
+qrom = "four"
+shots = 64

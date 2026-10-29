@@ -1,0 +1,367 @@
+{
+  "steps": [
+    {
+      "step": 0,
+      "lr": 5e-06,
+      "loss": 5.109
+    },
+    {
+      "step": 10,
+      "lr": 5.5e-05,
+      "loss": 4.7323
+    },
+    {
+      "step": 20,
+      "lr": 0.000105,
+      "loss": 4.9937
+    },
+    {
+      "step": 30,
+      "lr": 0.000155,
+      "loss": 4.8184
+    },
+    {
+      "step": 40,
+      "lr": 0.000205,
+      "loss": 4.4405
+    },
+    {
+      "step": 50,
+      "lr": 0.000255,
+      "loss": 4.4974
+    },
+    {
+      "step": 60,
+      "lr": 0.0003,
+      "loss": 4.5175
+    },
+    {
+      "step": 70,
+      "lr": 0.0003,
+      "loss": 4.2395
+    },
+    {
+      "step": 80,
+      "lr": 0.000299,
+      "loss": 4.2782
+    },
+    {
+      "step": 90,
+      "lr": 0.000298,
+      "loss": 4.2022
+    },
+    {
+      "step": 100,
+      "lr": 0.000296,
+      "loss": 4.1729
+    },
+    {
+      "step": 110,
+      "lr": 0.000294,
+      "loss": 4.3259
+    },
+    {
+      "step": 120,
+      "lr": 0.000292,
+      "loss": 4.3792
+    },
+    {
+      "step": 130,
+      "lr": 0.000289,
+      "loss": 4.2579
+    },
+    {
+      "step": 140,
+      "lr": 0.000286,
+      "loss": 4.335
+    },
+    {
+      "step": 150,
+      "lr": 0.000282,
+      "loss": 4.1186
+    },
+    {
+      "step": 160,
+      "lr": 0.000278,
+      "loss": 3.9673
+    },
+    {
+      "step": 170,
+      "lr": 0.000273,
+      "loss": 3.9739
+    },
+    {
+      "step": 180,
+      "lr": 0.000268,
+      "loss": 4.0012
+    },
+    {
+      "step": 190,
+      "lr": 0.000263,
+      "loss": 4.2284
+    },
+    {
+      "step": 200,
+      "lr": 0.000258,
+      "loss": 4.4042
+    },
+    {
+      "step": 210,
+      "lr": 0.000252,
+      "loss": 4.2267
+    },
+    {
+      "step": 220,
+      "lr": 0.000246,
+      "loss": 4.1041
+    },
+    {
+      "step": 230,
+      "lr": 0.000239,
+      "loss": 4.3151
+    },
+    {
+      "step": 240,
+      "lr": 0.000232,
+      "loss": 4.2593
+    },
+    {
+      "step": 250,
+      "lr": 0.000226,
+      "loss": 4.0823
+    },
+    {
+      "step": 260,
+      "lr": 0.000218,
+      "loss": 3.8779
+    },
+    {
+      "step": 270,
+      "lr": 0.000211,
+      "loss": 4.1172
+    },
+    {
+      "step": 280,
+      "lr": 0.000204,
+      "loss": 3.9952
+    },
+    {
+      "step": 290,
+      "lr": 0.000196,
+      "loss": 3.9951
+    },
+    {
+      "step": 300,
+      "lr": 0.000188,
+      "loss": 4.4362
+    },
+    {
+      "step": 310,
+      "lr": 0.000181,
+      "loss": 4.0199
+    },
+    {
+      "step": 320,
+      "lr": 0.000173,
+      "loss": 3.9927
+    },
+    {
+      "step": 330,
+      "lr": 0.000165,
+      "loss": 4.099
+    },
+    {
+      "step": 340,
+      "lr": 0.000157,
+      "loss": 3.9615
+    },
+    {
+      "step": 350,
+      "lr": 0.000149,
+      "loss": 3.8988
+    },
+    {
+      "step": 360,
+      "lr": 0.000142,
+      "loss": 4.0178
+    },
+    {
+      "step": 370,
+      "lr": 0.000134,
+      "loss": 3.9592
+    },
+    {
+      "step": 380,
+      "lr": 0.000126,
+      "loss": 3.8817
+    },
+    {
+      "step": 390,
+      "lr": 0.000119,
+      "loss": 4.0124
+    },
+    {
+      "step": 400,
+      "lr": 0.000112,
+      "loss": 4.4454
+    },
+    {
+      "step": 410,
+      "lr": 0.000104,
+      "loss": 3.9832
+    },
+    {
+      "step": 420,
+      "lr": 9.8e-05,
+      "loss": 4.0701
+    },
+    {
+      "step": 430,
+      "lr": 9.1e-05,
+      "loss": 4.1368
+    },
+    {
+      "step": 440,
+      "lr": 8.4e-05,
+      "loss": 3.96
+    },
+    {
+      "step": 450,
+      "lr": 7.8e-05,
+      "loss": 3.8669
+    },
+    {
+      "step": 460,
+      "lr": 7.2e-05,
+      "loss": 3.8929
+    },
+    {
+      "step": 470,
+      "lr": 6.7e-05,
+      "loss": 3.9412
+    },
+    {
+      "step": 480,
+      "lr": 6.2e-05,
+      "loss": 3.9358
+    },
+    {
+      "step": 490,
+      "lr": 5.7e-05,
+      "loss": 3.8569
+    },
+    {
+      "step": 500,
+      "lr": 5.2e-05,
+      "loss": 4.1841
+    },
+    {
+      "step": 510,
+      "lr": 4.8e-05,
+      "loss": 3.8741
+    },
+    {
+      "step": 520,
+      "lr": 4.4e-05,
+      "loss": 3.7794
+    },
+    {
+      "step": 530,
+      "lr": 4.1e-05,
+      "loss": 3.9546
+    },
+    {
+      "step": 540,
+      "lr": 3.8e-05,
+      "loss": 4.0023
+    },
+    {
+      "step": 550,
+      "lr": 3.6e-05,
+      "loss": 3.9202
+    },
+    {
+      "step": 560,
+      "lr": 3.4e-05,
+      "loss": 3.9861
+    },
+    {
+      "step": 570,
+      "lr": 3.2e-05,
+      "loss": 4.0769
+    },
+    {
+      "step": 580,
+      "lr": 3.1e-05,
+      "loss": 3.8055
+    },
+    {
+      "step": 590,
+      "lr": 3e-05,
+      "loss": 3.8701
+    },
+    {
+      "step": 599,
+      "lr": 3e-05,
+      "loss": 3.9318
+    }
+  ],
+  "val": [
+    {
+      "step": 99,
+      "val_ppl": 90.844
+    },
+    {
+      "step": 199,
+      "val_ppl": 93.553
+    },
+    {
+      "step": 299,
+      "val_ppl": 55.949
+    },
+    {
+      "step": 399,
+      "val_ppl": 77.852
+    },
+    {
+      "step": 499,
+      "val_ppl": 50.65
+    },
+    {
+      "step": 599,
+      "val_ppl": 62.468
+    }
+  ],
+  "samples": [
+    {
+      "step": 199,
+      "q": "What is the capital of France?",
+      "a": "end>end | | ing to end  | i   >| >| ended in |r| | a the - | |> the  |k of | |e P >|| |er Sen b | |<"
+    },
+    {
+      "step": 199,
+      "q": "Give me one tip for learning a new language.",
+      "a": "end| h. of | a |,  y |  >> |>on an ar |>end f g | of |y >| end | > |, | an |al | | | | c |>ing"
+    },
+    {
+      "step": 399,
+      "q": "What is the capital of France?",
+      "a": "|| G a uks endit <| en >t ||>||o g in >ui b |end|<>| >|r to f i |end|| h P ||>|| al |end|>a |"
+    },
+    {
+      "step": 399,
+      "q": "Give me one tip for learning a new language.",
+      "a": "|end>|>Ha d f. o |< the al<|>|>|>an |e |end>|>ces Gting and || m p endral |end| A of in end||>end>||s is"
+    },
+    {
+      "step": 599,
+      "q": "What is the capital of France?",
+      "a": "||an |ar ar end||>or endu in of creing Ming fal ||| Mic the my a Cend|end|>S - and |endar B ||>end>d ce m a an"
+    },
+    {
+      "step": 599,
+      "q": "Give me one tip for learning a new language.",
+      "a": "in pes The Se endo >endar <s |end|>|>in r. ||end>in a is be the ||endice a |>||<|<|>c. |to Rams in - and ||"
+    }
+  ]
+}

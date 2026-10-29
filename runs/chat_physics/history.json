@@ -1,0 +1,303 @@
+{
+  "steps": [
+    {
+      "step": 0,
+      "lr": 5e-06,
+      "loss": 4.2556
+    },
+    {
+      "step": 10,
+      "lr": 5.5e-05,
+      "loss": 4.268
+    },
+    {
+      "step": 20,
+      "lr": 0.000105,
+      "loss": 4.334
+    },
+    {
+      "step": 30,
+      "lr": 0.000155,
+      "loss": 4.3338
+    },
+    {
+      "step": 40,
+      "lr": 0.000205,
+      "loss": 4.1969
+    },
+    {
+      "step": 50,
+      "lr": 0.000255,
+      "loss": 4.3323
+    },
+    {
+      "step": 60,
+      "lr": 0.0003,
+      "loss": 4.2368
+    },
+    {
+      "step": 70,
+      "lr": 0.0003,
+      "loss": 4.273
+    },
+    {
+      "step": 80,
+      "lr": 0.000299,
+      "loss": 4.1558
+    },
+    {
+      "step": 90,
+      "lr": 0.000297,
+      "loss": 4.1701
+    },
+    {
+      "step": 100,
+      "lr": 0.000295,
+      "loss": 4.4053
+    },
+    {
+      "step": 110,
+      "lr": 0.000291,
+      "loss": 4.1651
+    },
+    {
+      "step": 120,
+      "lr": 0.000288,
+      "loss": 4.2611
+    },
+    {
+      "step": 130,
+      "lr": 0.000283,
+      "loss": 4.0254
+    },
+    {
+      "step": 140,
+      "lr": 0.000279,
+      "loss": 4.0055
+    },
+    {
+      "step": 150,
+      "lr": 0.000273,
+      "loss": 4.2477
+    },
+    {
+      "step": 160,
+      "lr": 0.000267,
+      "loss": 4.1695
+    },
+    {
+      "step": 170,
+      "lr": 0.00026,
+      "loss": 4.1932
+    },
+    {
+      "step": 180,
+      "lr": 0.000253,
+      "loss": 4.2163
+    },
+    {
+      "step": 190,
+      "lr": 0.000246,
+      "loss": 4.1541
+    },
+    {
+      "step": 200,
+      "lr": 0.000238,
+      "loss": 4.0424
+    },
+    {
+      "step": 210,
+      "lr": 0.00023,
+      "loss": 4.0944
+    },
+    {
+      "step": 220,
+      "lr": 0.000221,
+      "loss": 4.1137
+    },
+    {
+      "step": 230,
+      "lr": 0.000212,
+      "loss": 4.2698
+    },
+    {
+      "step": 240,
+      "lr": 0.000203,
+      "loss": 4.1356
+    },
+    {
+      "step": 250,
+      "lr": 0.000194,
+      "loss": 4.1498
+    },
+    {
+      "step": 260,
+      "lr": 0.000184,
+      "loss": 4.2829
+    },
+    {
+      "step": 270,
+      "lr": 0.000175,
+      "loss": 4.0659
+    },
+    {
+      "step": 280,
+      "lr": 0.000165,
+      "loss": 4.0304
+    },
+    {
+      "step": 290,
+      "lr": 0.000155,
+      "loss": 4.1878
+    },
+    {
+      "step": 300,
+      "lr": 0.000146,
+      "loss": 4.1676
+    },
+    {
+      "step": 310,
+      "lr": 0.000136,
+      "loss": 4.2814
+    },
+    {
+      "step": 320,
+      "lr": 0.000127,
+      "loss": 4.1471
+    },
+    {
+      "step": 330,
+      "lr": 0.000118,
+      "loss": 3.9448
+    },
+    {
+      "step": 340,
+      "lr": 0.000109,
+      "loss": 3.9965
+    },
+    {
+      "step": 350,
+      "lr": 0.0001,
+      "loss": 4.0348
+    },
+    {
+      "step": 360,
+      "lr": 9.2e-05,
+      "loss": 4.1116
+    },
+    {
+      "step": 370,
+      "lr": 8.4e-05,
+      "loss": 4.0171
+    },
+    {
+      "step": 380,
+      "lr": 7.7e-05,
+      "loss": 4.2313
+    },
+    {
+      "step": 390,
+      "lr": 7e-05,
+      "loss": 4.1582
+    },
+    {
+      "step": 400,
+      "lr": 6.3e-05,
+      "loss": 3.9052
+    },
+    {
+      "step": 410,
+      "lr": 5.7e-05,
+      "loss": 4.0093
+    },
+    {
+      "step": 420,
+      "lr": 5.1e-05,
+      "loss": 4.0272
+    },
+    {
+      "step": 430,
+      "lr": 4.7e-05,
+      "loss": 4.104
+    },
+    {
+      "step": 440,
+      "lr": 4.2e-05,
+      "loss": 3.9057
+    },
+    {
+      "step": 450,
+      "lr": 3.9e-05,
+      "loss": 3.9317
+    },
+    {
+      "step": 460,
+      "lr": 3.5e-05,
+      "loss": 4.1533
+    },
+    {
+      "step": 470,
+      "lr": 3.3e-05,
+      "loss": 3.9188
+    },
+    {
+      "step": 480,
+      "lr": 3.1e-05,
+      "loss": 3.9098
+    },
+    {
+      "step": 490,
+      "lr": 3e-05,
+      "loss": 3.9439
+    },
+    {
+      "step": 499,
+      "lr": 3e-05,
+      "loss": 4.1101
+    }
+  ],
+  "val": [
+    {
+      "step": 99,
+      "val_ppl": 81.664
+    },
+    {
+      "step": 199,
+      "val_ppl": 92.16
+    },
+    {
+      "step": 299,
+      "val_ppl": 56.72
+    },
+    {
+      "step": 399,
+      "val_ppl": 63.113
+    },
+    {
+      "step": 499,
+      "val_ppl": 59.733
+    }
+  ],
+  "samples": [
+    {
+      "step": 249,
+      "q": "What is the capital of France?",
+      "a": "en cs carre rei, an y hing o as py   are m a\nof am r ns s in o is. an. it oes ley h an e en,, ca p"
+    },
+    {
+      "step": 249,
+      "q": "Give me one tip for learning a new language.",
+      "a": "i al aly. r l or  ler b p ar an, al an on y, an a u s i o reen  e y . , ing , a or on a as - e are"
+    },
+    {
+      "step": 499,
+      "q": "What is the capital of France?",
+      "a": "an st aling rin res is dal co s Sn to a poe in a as. fle of at falg to duert in len and gar olen\narar and sed"
+    },
+    {
+      "step": 499,
+      "q": "Give me one tip for learning a new language.",
+      "a": "in is in bic gre fatan a is nes atle  ing to fo csti is ding to en. re is to fes Au B re on"
+    }
+  ]
+}

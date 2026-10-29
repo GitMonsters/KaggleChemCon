@@ -1,0 +1,3 @@
+﻿57714128 SubmissionStatus.PENDING  Gauged portfolio (Gram-preserving rotations)
+57714032 SubmissionStatus.PENDING  Test resubmit
+57711843 SubmissionStatus.COMPLETE 21.88210 Verified 21.88 portfolio

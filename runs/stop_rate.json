@@ -1,0 +1,692 @@
+{
+  "chat": {
+    "checkpoint": "runs\\chat\\best.pt",
+    "atomic": false,
+    "trials": 48,
+    "stopped": 0,
+    "stop_rate": 0.0,
+    "rows": [
+      {
+        "q": "What is the capital of France?",
+        "seed": 0,
+        "finished": false,
+        "tokens": 64,
+        "reply": "in is - Pa Tin cion and for of is\nof re, in to. mgngar Sdoen of - Han, is the Bpe war"
+      },
+      {
+        "q": "What is the capital of France?",
+        "seed": 1,
+        "finished": false,
+        "tokens": 64,
+        "reply": "of the Fe cre.t, the Sglar a to Sasices manal Tin - of Rktan the ho are ofes and in des mre"
+      },
+      {
+        "q": "What is the capital of France?",
+        "seed": 2,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Tor a a in Rgen - is the are Tonole cal cigm\nLano won Sa a in. are Me gupn. is de"
+      },
+      {
+        "q": "What is the capital of France?",
+        "seed": 3,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Be of Mloot,\nto and c and and the and Dene, is Son is to Bola mhfe Dreica to be the be L"
+      },
+      {
+        "q": "What is the capital of France?",
+        "seed": 4,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Sal to Nitan in\n- Fpon be. the Ghric clalm is ofime is for you Ma Breor the cbdon Gar\nP"
+      },
+      {
+        "q": "What is the capital of France?",
+        "seed": 5,
+        "finished": false,
+        "tokens": 64,
+        "reply": "mari to The and Te Ding be fate the A in a and to toe Har of is, Fared Cicual and bue, are for"
+      },
+      {
+        "q": "What is the capital of France?",
+        "seed": 6,
+        "finished": false,
+        "tokens": 64,
+        "reply": "A a in is Blereging lu. dre coles the and a gced the is clon A ctit in Lreolbic Co the C"
+      },
+      {
+        "q": "What is the capital of France?",
+        "seed": 7,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Tited the Bin and Su ree Go, ditican barice is to a Din, Gas, g Lcan for a a a Rcean"
+      },
+      {
+        "q": "Give me one tip for learning a new language.",
+        "seed": 0,
+        "finished": false,
+        "tokens": 64,
+        "reply": "in is pian, Tk cion and for of as\nof re, in to. are a the Sdoen of - for R is btan are war"
+      },
+      {
+        "q": "Give me one tip for learning a new language.",
+        "seed": 1,
+        "finished": false,
+        "tokens": 64,
+        "reply": "of the e ining St, the Sglar a to Sasices manal Tin.  a Rktan the ho are ofes Stin des mre"
+      },
+      {
+        "q": "Give me one tip for learning a new language.",
+        "seed": 2,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Tor a a No\nare reing is A the Tonole Dalan the of Lano wken aea in. are Mat gupn Hict to"
+      },
+      {
+        "q": "Give me one tip for learning a new language.",
+        "seed": 3,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Bis of Mloot, Nal The in bres\nfor Dene, cas M is to Bola Shan and to of to the a fam L"
+      },
+      {
+        "q": "Give me one tip for learning a new language.",
+        "seed": 4,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Sal to Ditan in\n- c, is be. the Ghric clalm is ofime is for A Ma Neor the cbdon Gar\nP"
+      },
+      {
+        "q": "Give me one tip for learning a new language.",
+        "seed": 5,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Nari eg and The Bital of Can, is a are The and cited - mfm Wo Fk the - The and bre Pan in"
+      },
+      {
+        "q": "Give me one tip for learning a new language.",
+        "seed": 6,
+        "finished": false,
+        "tokens": 64,
+        "reply": "The a it is Blereging and,. dre coles the and a g guuoat clon A ant, in Lream of Cmft C"
+      },
+      {
+        "q": "Give me one tip for learning a new language.",
+        "seed": 7,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Tged the Bin and Suure, r the ditican barice is to a Din, Gas, gon The the a coana Rcean"
+      },
+      {
+        "q": "Hello, how are you today?",
+        "seed": 0,
+        "finished": false,
+        "tokens": 64,
+        "reply": "in is - Pa Tk cor. and for of is\nof re, in to. are bgar Sdoen of - for R is the Bpe war"
+      },
+      {
+        "q": "Hello, how are you today?",
+        "seed": 1,
+        "finished": false,
+        "tokens": 64,
+        "reply": "of the Fe cre.t, the Sglit a to Sasices manal Tin.  of Rktan the ho are of is are is for mre"
+      },
+      {
+        "q": "Hello, how are you today?",
+        "seed": 2,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Tor a a Noreging - is A are Tonole calan the of Lan plk Sa a in. are Me gupn. is de"
+      },
+      {
+        "q": "Hello, how are you today?",
+        "seed": 3,
+        "finished": false,
+        "tokens": 64,
+        "reply": "is of Mloot, Nal The in bres\nfor Dene, cas M is to Bola mho and to of to the a fam L"
+      },
+      {
+        "q": "Hello, how are you today?",
+        "seed": 4,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Sal to Ditan in\n- Fan is be. the Ghric clalm is ofe are is for A a gar. to Tleg bon the P"
+      },
+      {
+        "q": "Hello, how are you today?",
+        "seed": 5,
+        "finished": false,
+        "tokens": 64,
+        "reply": "mari to The and Ne Ding be fbe the A in a and to toe Hare Hho Far the - ced is to Pano for"
+      },
+      {
+        "q": "Hello, how are you today?",
+        "seed": 6,
+        "finished": false,
+        "tokens": 64,
+        "reply": "for a in is Bleregan and,. dre colke the and a gced the is clon A ant, in Lreolbic Co the C"
+      },
+      {
+        "q": "Hello, how are you today?",
+        "seed": 7,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Tit Rren d and Suure in of, ditican barice is to a Din, Gas, gon The the a coana Rcean"
+      },
+      {
+        "q": "Why is the sky blue?",
+        "seed": 0,
+        "finished": false,
+        "tokens": 64,
+        "reply": "in is - Pa Tk cion and for of is\nof re, in to. are bgar Sdoen of - for R is the Bpe war"
+      },
+      {
+        "q": "Why is the sky blue?",
+        "seed": 1,
+        "finished": false,
+        "tokens": 64,
+        "reply": "of the F in re.t, the Sglit a to Sasices manal Tar. be in and Hf. ho are of is are is for mre"
+      },
+      {
+        "q": "Why is the sky blue?",
+        "seed": 2,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Tor a a No\nare reing is the are Tonole Dalan the of Lano wken aea in. are Mat gupn Hict to"
+      },
+      {
+        "q": "Why is the sky blue?",
+        "seed": 3,
+        "finished": false,
+        "tokens": 64,
+        "reply": "is of Ml the is\nNal The in bres\nfor Dene, cas M is to Bola mho and to of to the a fam L"
+      },
+      {
+        "q": "Why is the sky blue?",
+        "seed": 4,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Sal to Ditan in\n- Fanon be. the Ghric clalm is ofime is for A Ma Neor the cbdon Gar\nP"
+      },
+      {
+        "q": "Why is the sky blue?",
+        "seed": 5,
+        "finished": false,
+        "tokens": 64,
+        "reply": "mari to The and Ne Ding be fbe the A in a and to toe Har of is, Fared Cicual and bue, are for"
+      },
+      {
+        "q": "Why is the sky blue?",
+        "seed": 6,
+        "finished": false,
+        "tokens": 64,
+        "reply": "for a in is Blereging and,. dre cked the and a g guuo tues Cluu, - in Lreolbic Co the C"
+      },
+      {
+        "q": "Why is the sky blue?",
+        "seed": 7,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Tit Rrenn of foluua d of, ditican barice is to the Din, Gas, g Lolici a coana Rcean"
+      },
+      {
+        "q": "Write one sentence about the ocean.",
+        "seed": 0,
+        "finished": false,
+        "tokens": 64,
+        "reply": "in is - Pa Tk to Sgal for of is\nof re, in to. are bin and danen of - for R is the Bpo war"
+      },
+      {
+        "q": "Write one sentence about the ocean.",
+        "seed": 1,
+        "finished": false,
+        "tokens": 64,
+        "reply": "of the Feining Stmc cngl. a to Sasices to fenes Ban a Rktan the are Gaman is and in des mre"
+      },
+      {
+        "q": "Write one sentence about the ocean.",
+        "seed": 2,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Tor a a in Raming - is the are Tonole cal cigmireic plk Sa a in. Niis Bgupn. is de"
+      },
+      {
+        "q": "Write one sentence about the ocean.",
+        "seed": 3,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Bol. cis Hot,\nNal The in bres\nfor Dene, the Son is to Bola mhte Dkica win. a fam L"
+      },
+      {
+        "q": "Write one sentence about the ocean.",
+        "seed": 4,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Sal to Nitan in\n- Fan is be. the Ghric clal Pis ofemar is for A a gar. to Tleg bon the P"
+      },
+      {
+        "q": "Write one sentence about the ocean.",
+        "seed": 5,
+        "finished": false,
+        "tokens": 64,
+        "reply": "mari to The and ree Ding in fbe the A be a and to toe Hare Hho Far the - ced is to Pano for"
+      },
+      {
+        "q": "Write one sentence about the ocean.",
+        "seed": 6,
+        "finished": false,
+        "tokens": 64,
+        "reply": "A a in is Bleregan and,. dre coles the and a g guuo the the Cluu, - in Lream of Cmft C"
+      },
+      {
+        "q": "Write one sentence about the ocean.",
+        "seed": 7,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Tit R, Bi and Suure in of the the a barice is to a Din, Gas, gon The the a coana Rcean"
+      },
+      {
+        "q": "What is a black hole?",
+        "seed": 0,
+        "finished": false,
+        "tokens": 64,
+        "reply": "in is - Pa Tin cion and for of is\nof re, in to. are bgar Sdoen of - for R is the Bpe war"
+      },
+      {
+        "q": "What is a black hole?",
+        "seed": 1,
+        "finished": false,
+        "tokens": 64,
+        "reply": "of the Feining Stmc cnglar a to Sasices to fenes Ban a Rktan the are Gaman is Stin des mre"
+      },
+      {
+        "q": "What is a black hole?",
+        "seed": 2,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Tor a a Nore Treing is the are Tonole calan the of Lano wken a a in. are Me gupn. is de"
+      },
+      {
+        "q": "What is a black hole?",
+        "seed": 3,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Be of Mlo of cleal The in bres\nfor Dene, the Son is to Bola mht and to of to the a famo,"
+      },
+      {
+        "q": "What is a black hole?",
+        "seed": 4,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Sal to Ditan in\n- Fpon be. the Ghric clalm is ofemar is for A Ma Neor the cbdon Gar\nP"
+      },
+      {
+        "q": "What is a black hole?",
+        "seed": 5,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Nari to The andmree Dcart fate the A in a and to toe Hare Hho the Ging - is and bu Pano for"
+      },
+      {
+        "q": "What is a black hole?",
+        "seed": 6,
+        "finished": false,
+        "tokens": 64,
+        "reply": "A a in is Bleregan and,. dre coles the and a g guuokt the Cluu, - in Lream of Cmft C"
+      },
+      {
+        "q": "What is a black hole?",
+        "seed": 7,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Tged the Bd and Suure, Go, ditican barice is to a Din, Gas, as Lcan for a a a Rcean"
+      }
+    ]
+  },
+  "chat_atomic": {
+    "checkpoint": "runs\\chat_atomic\\best.pt",
+    "atomic": true,
+    "trials": 48,
+    "stopped": 31,
+    "stop_rate": 0.646,
+    "rows": [
+      {
+        "q": "What is the capital of France?",
+        "seed": 0,
+        "finished": true,
+        "tokens": 4,
+        "reply": "in the"
+      },
+      {
+        "q": "What is the capital of France?",
+        "seed": 1,
+        "finished": true,
+        "tokens": 51,
+        "reply": "of pame\nthe  a Ain Ban\nof Wo in\nof Holitmis is, Po Pam and Tanansty"
+      },
+      {
+        "q": "What is the capital of France?",
+        "seed": 2,
+        "finished": true,
+        "tokens": 64,
+        "reply": "Tre the of bcea of the to po\nin Alonler fy of wlees hiit. the is is Ces the mit fed the"
+      },
+      {
+        "q": "What is the capital of France?",
+        "seed": 3,
+        "finished": true,
+        "tokens": 14,
+        "reply": "Witoing, is Por and"
+      },
+      {
+        "q": "What is the capital of France?",
+        "seed": 4,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Sat - wlr. a is of are ble Sf, a - the are Bon to and for daral pit gfati Nolueic.s to"
+      },
+      {
+        "q": "What is the capital of France?",
+        "seed": 5,
+        "finished": true,
+        "tokens": 17,
+        "reply": "my s Sano Caroen Cre"
+      },
+      {
+        "q": "What is the capital of France?",
+        "seed": 6,
+        "finished": true,
+        "tokens": 40,
+        "reply": "The Auon the tsy Tes of and Ao., ban of Bisk fal, Cat"
+      },
+      {
+        "q": "What is the capital of France?",
+        "seed": 7,
+        "finished": true,
+        "tokens": 7,
+        "reply": "Tcn, is"
+      },
+      {
+        "q": "Give me one tip for learning a new language.",
+        "seed": 0,
+        "finished": true,
+        "tokens": 4,
+        "reply": "in the"
+      },
+      {
+        "q": "Give me one tip for learning a new language.",
+        "seed": 1,
+        "finished": true,
+        "tokens": 42,
+        "reply": "er pame\nthe wa Ainen wprlio in\nof is the Ps is, re mo"
+      },
+      {
+        "q": "Give me one tip for learning a new language.",
+        "seed": 2,
+        "finished": true,
+        "tokens": 50,
+        "reply": "k Grs of cea of the to po\nin Alonler fy of wlees s coring is Bam"
+      },
+      {
+        "q": "Give me one tip for learning a new language.",
+        "seed": 3,
+        "finished": true,
+        "tokens": 14,
+        "reply": "Witoing, is Por and"
+      },
+      {
+        "q": "Give me one tip for learning a new language.",
+        "seed": 4,
+        "finished": false,
+        "tokens": 64,
+        "reply": "pa - wlred a is of are ble Sfo: in a ss Bon to and ser. Tre\nto ge the Nolues for to"
+      },
+      {
+        "q": "Give me one tip for learning a new language.",
+        "seed": 5,
+        "finished": false,
+        "tokens": 64,
+        "reply": "er a is to beed Wenic, Mot. are the Sam. the the and of and No. Aon puttan and is Drar. ms"
+      },
+      {
+        "q": "Give me one tip for learning a new language.",
+        "seed": 6,
+        "finished": false,
+        "tokens": 64,
+        "reply": "re A. wealts Foles of and A in, ban of Batk fu, Cgs wa The cis being and and malan Matnk"
+      },
+      {
+        "q": "Give me one tip for learning a new language.",
+        "seed": 7,
+        "finished": false,
+        "tokens": 64,
+        "reply": "ic are phre the Nan Donanes. Harccl w bret gero the or Lon in, Paralk s P reio and ps A"
+      },
+      {
+        "q": "Hello, how are you today?",
+        "seed": 0,
+        "finished": true,
+        "tokens": 30,
+        "reply": "in an, As yes the is Folor Loe Tingy cre"
+      },
+      {
+        "q": "Hello, how are you today?",
+        "seed": 1,
+        "finished": true,
+        "tokens": 51,
+        "reply": "of rame\nthe o and inen wprlio in of Ha Bmo is, Po Pam and Tanansty"
+      },
+      {
+        "q": "Hello, how are you today?",
+        "seed": 2,
+        "finished": true,
+        "tokens": 64,
+        "reply": "T hrk of cea ing the to po\nin Alonler fy of wlees s cor the is is Ces the mit fed the"
+      },
+      {
+        "q": "Hello, how are you today?",
+        "seed": 3,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Bar being, is Por lit the ms the -\ngic Fat Abal, are Rs the D get to Talu of is the Paly the"
+      },
+      {
+        "q": "Hello, how are you today?",
+        "seed": 4,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Sat - wlred a s of are ble Sico a - the wlnon to and Der. Tre\nAalge the Nolueic for to"
+      },
+      {
+        "q": "Hello, how are you today?",
+        "seed": 5,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Ny so to ced Wen Creal Bo.. the Sam. beta and Mle ble is Aon pu, wats is Drar Bans"
+      },
+      {
+        "q": "Hello, how are you today?",
+        "seed": 6,
+        "finished": true,
+        "tokens": 45,
+        "reply": "The at son Tts Foles of and Ao., ban of Bisk fury, s. Gre"
+      },
+      {
+        "q": "Hello, how are you today?",
+        "seed": 7,
+        "finished": true,
+        "tokens": 7,
+        "reply": "Tcn, is"
+      },
+      {
+        "q": "Why is the sky blue?",
+        "seed": 0,
+        "finished": true,
+        "tokens": 30,
+        "reply": "in olanrmer yes the is are the Loe Ting, cre"
+      },
+      {
+        "q": "Why is the sky blue?",
+        "seed": 1,
+        "finished": true,
+        "tokens": 51,
+        "reply": "of rame\nthe o and inen wprlio in\nof is the Po s, Po Pam and Tanansty"
+      },
+      {
+        "q": "Why is the sky blue?",
+        "seed": 2,
+        "finished": true,
+        "tokens": 50,
+        "reply": "T hrk of cea ing the to po\nin Alonler fy of wlees s coring is Bam"
+      },
+      {
+        "q": "Why is the sky blue?",
+        "seed": 3,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Bar being, is Por lit the mses Ay\ngic Fat Abal, are Rs the D gon to Tal. of is the Palupi"
+      },
+      {
+        "q": "Why is the sky blue?",
+        "seed": 4,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Sat - wlred a s of are ble Sfo: in a Cre\nBon to and Der. T pit gfati Nolues for to"
+      },
+      {
+        "q": "Why is the sky blue?",
+        "seed": 5,
+        "finished": true,
+        "tokens": 17,
+        "reply": "Ny so to ced Wen Cre"
+      },
+      {
+        "q": "Why is the sky blue?",
+        "seed": 6,
+        "finished": true,
+        "tokens": 45,
+        "reply": "The at son Tts Fees of and A in, ban of Bisk fury, s. Gre"
+      },
+      {
+        "q": "Why is the sky blue?",
+        "seed": 7,
+        "finished": true,
+        "tokens": 7,
+        "reply": "Tcn, is"
+      },
+      {
+        "q": "Write one sentence about the ocean.",
+        "seed": 0,
+        "finished": false,
+        "tokens": 64,
+        "reply": "ino, to is and Cual of the Aes Sanan dre cs and Tep, Brl. or, a to We go Hites is The"
+      },
+      {
+        "q": "Write one sentence about the ocean.",
+        "seed": 1,
+        "finished": true,
+        "tokens": 42,
+        "reply": "of peer\nthe wa Ain Ban\nClio in of Holitmis is, Poek"
+      },
+      {
+        "q": "Write one sentence about the ocean.",
+        "seed": 2,
+        "finished": true,
+        "tokens": 50,
+        "reply": "Tre. s of cea of the to po\nin Alonler fy of wlees s coring is Bam"
+      },
+      {
+        "q": "Write one sentence about the ocean.",
+        "seed": 3,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Bar being, is repiclit the ms the -\nger Fat A and of sed in Hark wribo goner is the Palupi"
+      },
+      {
+        "q": "Write one sentence about the ocean.",
+        "seed": 4,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Sat - e -. a is of are ble Sfo a - the wlnon to and for daral pit gfati Nolueic.s to"
+      },
+      {
+        "q": "Write one sentence about the ocean.",
+        "seed": 5,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Ny s in to ed a Rcreal Bo. of that the gle the and Mle ble is A, puttan and is Drar. ms"
+      },
+      {
+        "q": "Write one sentence about the ocean.",
+        "seed": 6,
+        "finished": true,
+        "tokens": 45,
+        "reply": "The A son Tts Foles of and A in, ban of Bis\nand in the As. Gre"
+      },
+      {
+        "q": "Write one sentence about the ocean.",
+        "seed": 7,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Tcn, hreon  Nan Don. and Haral M weres of gico the of Lon in, Par The s Plean cm be s A"
+      },
+      {
+        "q": "What is a black hole?",
+        "seed": 0,
+        "finished": true,
+        "tokens": 4,
+        "reply": "in the"
+      },
+      {
+        "q": "What is a black hole?",
+        "seed": 1,
+        "finished": true,
+        "tokens": 42,
+        "reply": "of peerali wa a nen wpr. Fen flean are Bms is, re mo"
+      },
+      {
+        "q": "What is a black hole?",
+        "seed": 2,
+        "finished": true,
+        "tokens": 64,
+        "reply": "Tre rsy bcea of the to po\nin Alonler fy of wlees hiit. the is is Ces the mit fed the"
+      },
+      {
+        "q": "What is a black hole?",
+        "seed": 3,
+        "finished": true,
+        "tokens": 14,
+        "reply": "Witoing, is bor and"
+      },
+      {
+        "q": "What is a black hole?",
+        "seed": 4,
+        "finished": false,
+        "tokens": 64,
+        "reply": "Sat reanes -. a is of are ble Sfo a - the wlnmin the gamer the The to gfati Nolueic.s to"
+      },
+      {
+        "q": "What is a black hole?",
+        "seed": 5,
+        "finished": false,
+        "tokens": 64,
+        "reply": "my s San beed a ic, Mot. are is Sam. the the and of and No. A, puent The the A Sarlo s"
+      },
+      {
+        "q": "What is a black hole?",
+        "seed": 6,
+        "finished": true,
+        "tokens": 45,
+        "reply": "The A son Tes Foles of and Ao., Wan of Bisk fury, s. Gre"
+      },
+      {
+        "q": "What is a black hole?",
+        "seed": 7,
+        "finished": true,
+        "tokens": 7,
+        "reply": "Tcn, is"
+      }
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+# Qaggle system registry: the single source of truth for per-system data.
+#
+# Read with the standard-library ``tomllib`` by dfthc/dfthc_u_to_tei.py
+# (OPTIMIZED_SOLUTIONS, FCIDUMP_FILES, UPPER_ENERGIES) and by
+# starter/task1_factorization/train_df_thc_qaggle.py (SYSTEMS).
+#
+# Fields
+#   fcidump        file name under data/integrals/
+#   orbitals       N, number of spatial orbitals
+#   electrons      eta, number of electrons
+#   upper_energy   E_upper (Hartree), upper bound on the ground-state energy
+#   baseline       provided factorization NPZ under baselines/ (read-only)
+#   rank, bases, copies
+#                  (R, B, C) of the baseline factorization
+#   competition    true for systems in the competition set (N <= 58)
+
+[systems."Fe2S2-20o30e"]
+fcidump = "fe2s2-30e20o.fcidump"
+orbitals = 20
+electrons = 30
+upper_energy = -116.6055156
+baseline = "Fe2S2-20o30e_15_20_20_ep50000_seed0.npz"
+rank = 15
+bases = 20
+copies = 20
+competition = true
+
+[systems."Fe4S4-36o54e"]
+fcidump = "fe4s4.fcidump"
+orbitals = 36
+electrons = 54
+upper_energy = -327.21257085
+baseline = "Fe4S4-36o54e_32_22_22_ep200000_seed0.npz"
+rank = 32
+bases = 22
+copies = 22
+competition = true
+
+[systems."XVIII56o64e"]
+fcidump = "CO2-complex_XVIII-highCD-cas4-fb-64e56o.fcidump"
+orbitals = 56
+electrons = 64
+upper_energy = -7475.439005441101
+baseline = "XVIII56o64e_50_50_50_ep60000_seed0.npz"
+rank = 50
+bases = 50
+copies = 50
+competition = true
+
+[systems."XVIII100o100e"]
+fcidump = "XVIII-highCD-cas4-fb-100e100o.fcidump"
+orbitals = 100
+electrons = 100
+upper_energy = -7475.54751
+baseline = "XVIII100o100e_70_70_70_ep60000_seed0.npz"
+rank = 70
+bases = 70
+copies = 70
+competition = false
+
+[systems."XVIII150o150e"]
+fcidump = "XVIII-highCD-cas4-fb-150e150o.fcidump"
+orbitals = 150
+electrons = 150
+upper_energy = -7475.65708
+baseline = "XVIII150o150e_120_120_120_ep75000_seed0.npz"
+rank = 120
+bases = 120
+copies = 120
+competition = false
+
+[systems."FeMoCo54o54e"]
+fcidump = "FeMoCo_reiher_dense.fcidump"
+orbitals = 54
+electrons = 54
+upper_energy = -13482.030532002282
+baseline = "FeMoCo54o54e_40_40_40_ep50000_seed0.npz"
+rank = 40
+bases = 40
+copies = 40
+competition = true
+
+[systems."FeMoCo76o113e"]
+fcidump = "FeMoCo76o113e.fcidump"
+orbitals = 76
+electrons = 113
+upper_energy = -22140.27335
+baseline = "FeMoCo76o113e_65_60_60_ep50000_seed0.npz"
+rank = 65
+bases = 60
+copies = 60
+competition = false
+
+[systems."cpd1X58o63e"]
+fcidump = "p450_cpd1-hamiltonians_P450CPD1X.fcidump"
+orbitals = 58
+electrons = 63
+upper_energy = -2756.9335705884914
+baseline = "cpd1X58o63e_40_45_45_ep60000_seed0.npz"
+rank = 40
+bases = 45
+copies = 45
+competition = true

@@ -1,0 +1,22 @@
+{
+  "source": "https://www.kaggle.com/code/lightningv08/bezout-schur-5-word-qrom",
+  "scope": "dfthcsos only; dqi and invsqrt are not redistributed here",
+  "files": [
+    "dfthcsos/angle_k_0.kmb",
+    "dfthcsos/angle_k_1.kmb",
+    "dfthcsos/angle_k_10.kmb",
+    "dfthcsos/angle_k_11.kmb",
+    "dfthcsos/angle_k_12.kmb",
+    "dfthcsos/angle_k_13.kmb",
+    "dfthcsos/angle_k_14.kmb",
+    "dfthcsos/angle_k_2.kmb",
+    "dfthcsos/angle_k_3.kmb",
+    "dfthcsos/angle_k_4.kmb",
+    "dfthcsos/angle_k_5.kmb",
+    "dfthcsos/angle_k_6.kmb",
+    "dfthcsos/angle_k_7.kmb",
+    "dfthcsos/angle_k_8.kmb",
+    "dfthcsos/angle_k_9.kmb",
+    "dfthcsos/submission.npz"
+  ]
+}

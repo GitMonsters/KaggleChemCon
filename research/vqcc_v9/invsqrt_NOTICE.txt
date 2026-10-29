@@ -1,0 +1,33 @@
+NOTICE for circuits/ (release 21.0 update of the 20.39 release, Apache-2.0)
+
+invsqrt.kmb (sha256 0766a111a76f241aa57fbbed466436d743be13436943ddb0628c291ca07d67d6; the 20.0565x build, two executed Toffolis fewer than the 20.032x build 3ed5f7fb... documented below)
+  My build. The 63 qubit polynomial core descends from the public lineage of Dmitrii Gluzdov, Phuc Thai (DePie
+  EXP-222/225a/226a) and Akmal Xodarev (busyaprime, 78 qubits), with marsyas's contributions upstream. The direct phase
+  taps, history caches, joint coefficient decoder, derivative-bit reuse, Gray-basis normalization and guard-bit phase
+  correction are mine. sources/invsqrt_20p032_verified_source.zip rebuilds it byte for byte and keeps the upstream
+  attribution and the SDK license under source/.
+
+dqi.kmb (sha256 569863ae0fafd5f94fe91b498ec67ed0a4d96b826ced31cb0ff57c7fe6c063cb)
+  Not my circuit. This is Ahmed Berat Ozer's v8 "Bezout-Schur splice" decoder, 883 qubits, redistributed byte for byte
+  under its Apache-2.0 license. Lineage: the continued-fraction Schur decoder of Gu, Kemeny, Yelin and Lukin
+  (arXiv:2610.22367; github.com/andigu/uncompute, tasks/dqi-reed-solomon); jday96314's competition rebuild
+  (github.com/jday96314/QuantumAI, 892 qubits); Alex Chilton's 883 qubit reverse synthesis
+  (kaggle.com/code/alexchilton/toffolis-go-18-3-schur-dqi-at-883-qubits); Ozer's Bezout conversion and mask projection
+  splice (kaggle.com/code/ahmedberatozer/quantum-ai-df-thc-group-compression). Also carried in the avazaku, kirilltym,
+  SeshuRaju and kchuang public portfolios, from which this copy was taken and re-verified: 102,400 shots on the default
+  salt, PASS, cost 495,048,250,576.63, 6 value and 2 phase errors.
+
+dfthcsos/ (submission.npz sha256 8229861b3ee22316e144c900737dfc54f7a30ea88de77ff5391f3375d050fa87, 19 ANGLE circuits; the 8.6121x C=59 merge of the 8.5735x fit described below)
+  My fit and my circuits on Michael Rustad's R=10, B=129, C=60 factorization. Relative to his input, W, H2_I and 2,781
+  one-body angle words changed under constrained refits; U, every two-body word, brot and the protected fields
+  (H1_I, Hsym_lower, tree_edges) are byte-identical to the competition reference. Earlier chemistry lineage: Ahmed Berat
+  Ozer (group compression), marculera (four address loaders). The compiler and reproducer are in
+  sources/dfthcsos_8p5558_complete_with_compiler.zip.
+
+Verifiers and the kickmix simulator are by Google Quantum AI and are not included; use the copies shipped with the
+competition data (kickmix.so sha256 c66b3216c4029e0cdfd09054306aa0feadf53ab2f50c1164e37f752874e5005e).
+
+Not included here: SomeJoint's confluent Hermite decoder (889 qubits, 53.60x, sha256
+0161fd2a6e50979838f8c4896b490ddea4d7a673588a9761a63a561a59b7ece5). My notebook reads it from their notebook output
+(kaggle.com/code/somejoint/quantum-circuits-20-96-local-gm-confluent-dqi). Credit: Agniv Banerjee and the SomeJoint team,
+on Alex Chilton's 883 qubit Schur decoder, on jday96314's rebuild of Gu, Kemeny, Yelin and Lukin's continued-fraction decoder.

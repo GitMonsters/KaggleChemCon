@@ -1,0 +1,1 @@
+{"id": "evanpieser/torch-check", "title": "torch-check", "code_file": "torch_check.ipynb", "language": "python", "kernel_type": "notebook", "is_private": true, "enable_gpu": true, "enable_tpu": false, "enable_internet": false, "dataset_sources": [], "competition_sources": ["google-verifiable-quantum-circuit-compilation"], "kernel_sources": []}

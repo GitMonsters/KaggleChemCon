@@ -1,0 +1,959 @@
+[
+  {
+    "batch_size": 9,
+    "clean_cap": 8,
+    "angle_toffoli": 106020,
+    "angle_qubits": 128,
+    "total_toffoli": 119777,
+    "total_qubits": 742,
+    "score": 4381636217.706728,
+    "circuits": [
+      {
+        "num_qubits": 128,
+        "toffoli_count": 5890,
+        "clean_scratch": 8,
+        "nonlinear_anf_terms": 3963,
+        "fallback_products": [
+          {
+            "mask": 1023,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 2047,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 3071,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 1535,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 3583,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 1791,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 3839,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 1919,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 3967,
+            "controls": 3,
+            "ccx": 4
+          }
+        ],
+        "gates": 273175,
+        "symbolic_oracle": {
+          "status": "PASS",
+          "all_valid_addresses": 3976,
+          "arbitrary_target_bits": 108,
+          "target_domain": "all 2**108 assignments",
+          "all_clean_scratch_restored": true,
+          "all_selection_bits_restored": true,
+          "zero_phase": "Only unconditional X/CX/CCX permutation gates"
+        }
+      },
+      {
+        "num_qubits": 128,
+        "toffoli_count": 5890,
+        "clean_scratch": 8,
+        "nonlinear_anf_terms": 3963,
+        "fallback_products": [
+          {
+            "mask": 1023,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 2047,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 3071,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 1535,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 3583,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 1791,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 3839,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 1919,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 3967,
+            "controls": 3,
+            "ccx": 4
+          }
+        ],
+        "gates": 273111,
+        "symbolic_oracle": {
+          "status": "PASS",
+          "all_valid_addresses": 3976,
+          "arbitrary_target_bits": 108,
+          "target_domain": "all 2**108 assignments",
+          "all_clean_scratch_restored": true,
+          "all_selection_bits_restored": true,
+          "zero_phase": "Only unconditional X/CX/CCX permutation gates"
+        }
+      },
+      {
+        "num_qubits": 128,
+        "toffoli_count": 5890,
+        "clean_scratch": 8,
+        "nonlinear_anf_terms": 3963,
+        "fallback_products": [
+          {
+            "mask": 1023,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 2047,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 3071,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 1535,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 3583,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 1791,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 3839,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 1919,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 3967,
+            "controls": 3,
+            "ccx": 4
+          }
+        ],
+        "gates": 273098,
+        "symbolic_oracle": {
+          "status": "PASS",
+          "all_valid_addresses": 3976,
+          "arbitrary_target_bits": 108,
+          "target_domain": "all 2**108 assignments",
+          "all_clean_scratch_restored": true,
+          "all_selection_bits_restored": true,
+          "zero_phase": "Only unconditional X/CX/CCX permutation gates"
+        }
+      },
+      {
+        "num_qubits": 128,
+        "toffoli_count": 5890,
+        "clean_scratch": 8,
+        "nonlinear_anf_terms": 3963,
+        "fallback_products": [
+          {
+            "mask": 1023,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 2047,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 3071,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 1535,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 3583,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 1791,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 3839,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 1919,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 3967,
+            "controls": 3,
+            "ccx": 4
+          }
+        ],
+        "gates": 302693,
+        "symbolic_oracle": {
+          "status": "PASS",
+          "all_valid_addresses": 3976,
+          "arbitrary_target_bits": 108,
+          "target_domain": "all 2**108 assignments",
+          "all_clean_scratch_restored": true,
+          "all_selection_bits_restored": true,
+          "zero_phase": "Only unconditional X/CX/CCX permutation gates"
+        }
+      },
+      {
+        "num_qubits": 128,
+        "toffoli_count": 5890,
+        "clean_scratch": 8,
+        "nonlinear_anf_terms": 3963,
+        "fallback_products": [
+          {
+            "mask": 1023,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 2047,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 3071,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 1535,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 3583,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 1791,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 3839,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 1919,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 3967,
+            "controls": 3,
+            "ccx": 4
+          }
+        ],
+        "gates": 326783,
+        "symbolic_oracle": {
+          "status": "PASS",
+          "all_valid_addresses": 3976,
+          "arbitrary_target_bits": 108,
+          "target_domain": "all 2**108 assignments",
+          "all_clean_scratch_restored": true,
+          "all_selection_bits_restored": true,
+          "zero_phase": "Only unconditional X/CX/CCX permutation gates"
+        }
+      },
+      {
+        "num_qubits": 128,
+        "toffoli_count": 5890,
+        "clean_scratch": 8,
+        "nonlinear_anf_terms": 3963,
+        "fallback_products": [
+          {
+            "mask": 1023,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 2047,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 3071,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 1535,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 3583,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 1791,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 3839,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 1919,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 3967,
+            "controls": 3,
+            "ccx": 4
+          }
+        ],
+        "gates": 327607,
+        "symbolic_oracle": {
+          "status": "PASS",
+          "all_valid_addresses": 3976,
+          "arbitrary_target_bits": 108,
+          "target_domain": "all 2**108 assignments",
+          "all_clean_scratch_restored": true,
+          "all_selection_bits_restored": true,
+          "zero_phase": "Only unconditional X/CX/CCX permutation gates"
+        }
+      },
+      {
+        "num_qubits": 128,
+        "toffoli_count": 5890,
+        "clean_scratch": 8,
+        "nonlinear_anf_terms": 3963,
+        "fallback_products": [
+          {
+            "mask": 1023,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 2047,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 3071,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 1535,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 3583,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 1791,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 3839,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 1919,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 3967,
+            "controls": 3,
+            "ccx": 4
+          }
+        ],
+        "gates": 326927,
+        "symbolic_oracle": {
+          "status": "PASS",
+          "all_valid_addresses": 3976,
+          "arbitrary_target_bits": 108,
+          "target_domain": "all 2**108 assignments",
+          "all_clean_scratch_restored": true,
+          "all_selection_bits_restored": true,
+          "zero_phase": "Only unconditional X/CX/CCX permutation gates"
+        }
+      },
+      {
+        "num_qubits": 128,
+        "toffoli_count": 5890,
+        "clean_scratch": 8,
+        "nonlinear_anf_terms": 3963,
+        "fallback_products": [
+          {
+            "mask": 1023,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 2047,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 3071,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 1535,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 3583,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 1791,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 3839,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 1919,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 3967,
+            "controls": 3,
+            "ccx": 4
+          }
+        ],
+        "gates": 326931,
+        "symbolic_oracle": {
+          "status": "PASS",
+          "all_valid_addresses": 3976,
+          "arbitrary_target_bits": 108,
+          "target_domain": "all 2**108 assignments",
+          "all_clean_scratch_restored": true,
+          "all_selection_bits_restored": true,
+          "zero_phase": "Only unconditional X/CX/CCX permutation gates"
+        }
+      },
+      {
+        "num_qubits": 128,
+        "toffoli_count": 5890,
+        "clean_scratch": 8,
+        "nonlinear_anf_terms": 3963,
+        "fallback_products": [
+          {
+            "mask": 1023,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 2047,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 3071,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 1535,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 3583,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 1791,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 3839,
+            "controls": 3,
+            "ccx": 4
+          },
+          {
+            "mask": 1919,
+            "controls": 2,
+            "ccx": 1
+          },
+          {
+            "mask": 3967,
+            "controls": 3,
+            "ccx": 4
+          }
+        ],
+        "gates": 326932,
+        "symbolic_oracle": {
+          "status": "PASS",
+          "all_valid_addresses": 3976,
+          "arbitrary_target_bits": 108,
+          "target_domain": "all 2**108 assignments",
+          "all_clean_scratch_restored": true,
+          "all_selection_bits_restored": true,
+          "zero_phase": "Only unconditional X/CX/CCX permutation gates"
+        }
+      }
+    ]
+  },
+  {
+    "batch_size": 8,
+    "clean_cap": 20,
+    "angle_toffoli": 117580,
+    "angle_qubits": 128,
+    "total_toffoli": 131337,
+    "total_qubits": 730,
+    "score": 4726818571.281761,
+    "circuits": [
+      {
+        "num_qubits": 128,
+        "toffoli_count": 5879,
+        "clean_scratch": 20,
+        "nonlinear_anf_terms": 3963,
+        "fallback_products": [],
+        "gates": 242761,
+        "symbolic_oracle": {
+          "status": "PASS",
+          "all_valid_addresses": 3976,
+          "arbitrary_target_bits": 96,
+          "target_domain": "all 2**96 assignments",
+          "all_clean_scratch_restored": true,
+          "all_selection_bits_restored": true,
+          "zero_phase": "Only unconditional X/CX/CCX permutation gates"
+        }
+      },
+      {
+        "num_qubits": 128,
+        "toffoli_count": 5879,
+        "clean_scratch": 20,
+        "nonlinear_anf_terms": 3963,
+        "fallback_products": [],
+        "gates": 242905,
+        "symbolic_oracle": {
+          "status": "PASS",
+          "all_valid_addresses": 3976,
+          "arbitrary_target_bits": 96,
+          "target_domain": "all 2**96 assignments",
+          "all_clean_scratch_restored": true,
+          "all_selection_bits_restored": true,
+          "zero_phase": "Only unconditional X/CX/CCX permutation gates"
+        }
+      },
+      {
+        "num_qubits": 128,
+        "toffoli_count": 5879,
+        "clean_scratch": 20,
+        "nonlinear_anf_terms": 3963,
+        "fallback_products": [],
+        "gates": 242908,
+        "symbolic_oracle": {
+          "status": "PASS",
+          "all_valid_addresses": 3976,
+          "arbitrary_target_bits": 96,
+          "target_domain": "all 2**96 assignments",
+          "all_clean_scratch_restored": true,
+          "all_selection_bits_restored": true,
+          "zero_phase": "Only unconditional X/CX/CCX permutation gates"
+        }
+      },
+      {
+        "num_qubits": 128,
+        "toffoli_count": 5879,
+        "clean_scratch": 20,
+        "nonlinear_anf_terms": 3963,
+        "fallback_products": [],
+        "gates": 248976,
+        "symbolic_oracle": {
+          "status": "PASS",
+          "all_valid_addresses": 3976,
+          "arbitrary_target_bits": 96,
+          "target_domain": "all 2**96 assignments",
+          "all_clean_scratch_restored": true,
+          "all_selection_bits_restored": true,
+          "zero_phase": "Only unconditional X/CX/CCX permutation gates"
+        }
+      },
+      {
+        "num_qubits": 128,
+        "toffoli_count": 5879,
+        "clean_scratch": 20,
+        "nonlinear_anf_terms": 3963,
+        "fallback_products": [],
+        "gates": 291082,
+        "symbolic_oracle": {
+          "status": "PASS",
+          "all_valid_addresses": 3976,
+          "arbitrary_target_bits": 96,
+          "target_domain": "all 2**96 assignments",
+          "all_clean_scratch_restored": true,
+          "all_selection_bits_restored": true,
+          "zero_phase": "Only unconditional X/CX/CCX permutation gates"
+        }
+      },
+      {
+        "num_qubits": 128,
+        "toffoli_count": 5879,
+        "clean_scratch": 20,
+        "nonlinear_anf_terms": 3963,
+        "fallback_products": [],
+        "gates": 291487,
+        "symbolic_oracle": {
+          "status": "PASS",
+          "all_valid_addresses": 3976,
+          "arbitrary_target_bits": 96,
+          "target_domain": "all 2**96 assignments",
+          "all_clean_scratch_restored": true,
+          "all_selection_bits_restored": true,
+          "zero_phase": "Only unconditional X/CX/CCX permutation gates"
+        }
+      },
+      {
+        "num_qubits": 128,
+        "toffoli_count": 5879,
+        "clean_scratch": 20,
+        "nonlinear_anf_terms": 3963,
+        "fallback_products": [],
+        "gates": 289841,
+        "symbolic_oracle": {
+          "status": "PASS",
+          "all_valid_addresses": 3976,
+          "arbitrary_target_bits": 96,
+          "target_domain": "all 2**96 assignments",
+          "all_clean_scratch_restored": true,
+          "all_selection_bits_restored": true,
+          "zero_phase": "Only unconditional X/CX/CCX permutation gates"
+        }
+      },
+      {
+        "num_qubits": 128,
+        "toffoli_count": 5879,
+        "clean_scratch": 20,
+        "nonlinear_anf_terms": 3963,
+        "fallback_products": [],
+        "gates": 291658,
+        "symbolic_oracle": {
+          "status": "PASS",
+          "all_valid_addresses": 3976,
+          "arbitrary_target_bits": 96,
+          "target_domain": "all 2**96 assignments",
+          "all_clean_scratch_restored": true,
+          "all_selection_bits_restored": true,
+          "zero_phase": "Only unconditional X/CX/CCX permutation gates"
+        }
+      },
+      {
+        "num_qubits": 128,
+        "toffoli_count": 5879,
+        "clean_scratch": 20,
+        "nonlinear_anf_terms": 3963,
+        "fallback_products": [],
+        "gates": 290785,
+        "symbolic_oracle": {
+          "status": "PASS",
+          "all_valid_addresses": 3976,
+          "arbitrary_target_bits": 96,
+          "target_domain": "all 2**96 assignments",
+          "all_clean_scratch_restored": true,
+          "all_selection_bits_restored": true,
+          "zero_phase": "Only unconditional X/CX/CCX permutation gates"
+        }
+      },
+      {
+        "num_qubits": 128,
+        "toffoli_count": 5879,
+        "clean_scratch": 20,
+        "nonlinear_anf_terms": 3963,
+        "fallback_products": [],
+        "gates": 290549,
+        "symbolic_oracle": {
+          "status": "PASS",
+          "all_valid_addresses": 3976,
+          "arbitrary_target_bits": 96,
+          "target_domain": "all 2**96 assignments",
+          "all_clean_scratch_restored": true,
+          "all_selection_bits_restored": true,
+          "zero_phase": "Only unconditional X/CX/CCX permutation gates"
+        }
+      }
+    ]
+  },
+  {
+    "batch_size": 7,
+    "clean_cap": 20,
+    "angle_toffoli": 129338,
+    "angle_qubits": 116,
+    "total_toffoli": 143095,
+    "total_qubits": 718,
+    "score": 5065331632.830056,
+    "circuits": [
+      {
+        "num_qubits": 116,
+        "toffoli_count": 5879,
+        "clean_scratch": 20,
+        "nonlinear_anf_terms": 3963,
+        "fallback_products": [],
+        "gates": 212646,
+        "symbolic_oracle": {
+          "status": "PASS",
+          "all_valid_addresses": 3976,
+          "arbitrary_target_bits": 84,
+          "target_domain": "all 2**84 assignments",
+          "all_clean_scratch_restored": true,
+          "all_selection_bits_restored": true,
+          "zero_phase": "Only unconditional X/CX/CCX permutation gates"
+        }
+      },
+      {
+        "num_qubits": 116,
+        "toffoli_count": 5879,
+        "clean_scratch": 20,
+        "nonlinear_anf_terms": 3963,
+        "fallback_products": [],
+        "gates": 212648,
+        "symbolic_oracle": {
+          "status": "PASS",
+          "all_valid_addresses": 3976,
+          "arbitrary_target_bits": 84,
+          "target_domain": "all 2**84 assignments",
+          "all_clean_scratch_restored": true,
+          "all_selection_bits_restored": true,
+          "zero_phase": "Only unconditional X/CX/CCX permutation gates"
+        }
+      },
+      {
+        "num_qubits": 116,
+        "toffoli_count": 5879,
+        "clean_scratch": 20,
+        "nonlinear_anf_terms": 3963,
+        "fallback_products": [],
+        "gates": 212192,
+        "symbolic_oracle": {
+          "status": "PASS",
+          "all_valid_addresses": 3976,
+          "arbitrary_target_bits": 84,
+          "target_domain": "all 2**84 assignments",
+          "all_clean_scratch_restored": true,
+          "all_selection_bits_restored": true,
+          "zero_phase": "Only unconditional X/CX/CCX permutation gates"
+        }
+      },
+      {
+        "num_qubits": 116,
+        "toffoli_count": 5879,
+        "clean_scratch": 20,
+        "nonlinear_anf_terms": 3963,
+        "fallback_products": [],
+        "gates": 212727,
+        "symbolic_oracle": {
+          "status": "PASS",
+          "all_valid_addresses": 3976,
+          "arbitrary_target_bits": 84,
+          "target_domain": "all 2**84 assignments",
+          "all_clean_scratch_restored": true,
+          "all_selection_bits_restored": true,
+          "zero_phase": "Only unconditional X/CX/CCX permutation gates"
+        }
+      },
+      {
+        "num_qubits": 116,
+        "toffoli_count": 5879,
+        "clean_scratch": 20,
+        "nonlinear_anf_terms": 3963,
+        "fallback_products": [],
+        "gates": 237522,
+        "symbolic_oracle": {
+          "status": "PASS",
+          "all_valid_addresses": 3976,
+          "arbitrary_target_bits": 84,
+          "target_domain": "all 2**84 assignments",
+          "all_clean_scratch_restored": true,
+          "all_selection_bits_restored": true,
+          "zero_phase": "Only unconditional X/CX/CCX permutation gates"
+        }
+      },
+      {
+        "num_qubits": 116,
+        "toffoli_count": 5879,
+        "clean_scratch": 20,
+        "nonlinear_anf_terms": 3963,
+        "fallback_products": [],
+        "gates": 254751,
+        "symbolic_oracle": {
+          "status": "PASS",
+          "all_valid_addresses": 3976,
+          "arbitrary_target_bits": 84,
+          "target_domain": "all 2**84 assignments",
+          "all_clean_scratch_restored": true,
+          "all_selection_bits_restored": true,
+          "zero_phase": "Only unconditional X/CX/CCX permutation gates"
+        }
+      },
+      {
+        "num_qubits": 116,
+        "toffoli_count": 5879,
+        "clean_scratch": 20,
+        "nonlinear_anf_terms": 3963,
+        "fallback_products": [],
+        "gates": 254570,
+        "symbolic_oracle": {
+          "status": "PASS",
+          "all_valid_addresses": 3976,
+          "arbitrary_target_bits": 84,
+          "target_domain": "all 2**84 assignments",
+          "all_clean_scratch_restored": true,
+          "all_selection_bits_restored": true,
+          "zero_phase": "Only unconditional X/CX/CCX permutation gates"
+        }
+      },
+      {
+        "num_qubits": 116,
+        "toffoli_count": 5879,
+        "clean_scratch": 20,
+        "nonlinear_anf_terms": 3963,
+        "fallback_products": [],
+        "gates": 254570,
+        "symbolic_oracle": {
+          "status": "PASS",
+          "all_valid_addresses": 3976,
+          "arbitrary_target_bits": 84,
+          "target_domain": "all 2**84 assignments",
+          "all_clean_scratch_restored": true,
+          "all_selection_bits_restored": true,
+          "zero_phase": "Only unconditional X/CX/CCX permutation gates"
+        }
+      },
+      {
+        "num_qubits": 116,
+        "toffoli_count": 5879,
+        "clean_scratch": 20,
+        "nonlinear_anf_terms": 3963,
+        "fallback_products": [],
+        "gates": 254746,
+        "symbolic_oracle": {
+          "status": "PASS",
+          "all_valid_addresses": 3976,
+          "arbitrary_target_bits": 84,
+          "target_domain": "all 2**84 assignments",
+          "all_clean_scratch_restored": true,
+          "all_selection_bits_restored": true,
+          "zero_phase": "Only unconditional X/CX/CCX permutation gates"
+        }
+      },
+      {
+        "num_qubits": 116,
+        "toffoli_count": 5879,
+        "clean_scratch": 20,
+        "nonlinear_anf_terms": 3963,
+        "fallback_products": [],
+        "gates": 254481,
+        "symbolic_oracle": {
+          "status": "PASS",
+          "all_valid_addresses": 3976,
+          "arbitrary_target_bits": 84,
+          "target_domain": "all 2**84 assignments",
+          "all_clean_scratch_restored": true,
+          "all_selection_bits_restored": true,
+          "zero_phase": "Only unconditional X/CX/CCX permutation gates"
+        }
+      },
+      {
+        "num_qubits": 116,
+        "toffoli_count": 5879,
+        "clean_scratch": 20,
+        "nonlinear_anf_terms": 3963,
+        "fallback_products": [],
+        "gates": 254794,
+        "symbolic_oracle": {
+          "status": "PASS",
+          "all_valid_addresses": 3976,
+          "arbitrary_target_bits": 84,
+          "target_domain": "all 2**84 assignments",
+          "all_clean_scratch_restored": true,
+          "all_selection_bits_restored": true,
+          "zero_phase": "Only unconditional X/CX/CCX permutation gates"
+        }
+      }
+    ]
+  }
+]

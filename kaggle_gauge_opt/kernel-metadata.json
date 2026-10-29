@@ -1,0 +1,14 @@
+{
+  "id": "evanpieser/gauge-optimization",
+  "title": "gauge-optimization",
+  "code_file": "gauge_optimization.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "dataset_sources": ["busyaprime/33-qcc-v8-members", "evanpieser/qcompile-verifiable"],
+  "competition_sources": ["google-verifiable-quantum-circuit-compilation"],
+  "kernel_sources": []
+}

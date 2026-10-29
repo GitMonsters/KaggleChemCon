@@ -1,0 +1,446 @@
+{
+  "checkpoints": {
+    "chat_atomic": {
+      "path": "runs/chat_atomic/best.pt",
+      "step": 499,
+      "physics_answer_ppl": 47.34,
+      "answer_tokens": 6721,
+      "samples": [
+        {
+          "q": "What is force?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "is Sey Cis ooe for prer \nthe - in Surre fu bit a the san in  the Hin, to Pyy"
+            },
+            {
+              "temp": 0.7,
+              "text": "ber, the in cnse. to ofs y to is pa for minnes the B the the of are Col Bs a cen Sing rest"
+            }
+          ]
+        },
+        {
+          "q": "What is energy?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "a in Aar is Bin is are Cor or the and is cis the Fit San and Frams bered and Gar Abor pin the D"
+            },
+            {
+              "temp": 0.7,
+              "text": "the Aleed cing, to the Ses Wamsal bbrhen a in the Pumhe mat Gmen, the of pipk his and in"
+            }
+          ]
+        },
+        {
+          "q": "Why is the sky blue?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the an the the e the  the the the the the the the the the the the the the the the in the the the the the the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "greing Sis the wond Mcis the M Tpn"
+            },
+            {
+              "temp": 0.7,
+              "text": "As besti fas pen to the s be By bee and the s and Hict gsed Fer Son is in Nen Ai Mrhrl"
+            }
+          ]
+        },
+        {
+          "q": "What is gravity?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the the the the the the the the the the the the the a the the the the the the the the the the the the the the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "Mlrpy Pnliton clory it Tlon, a ate the are ha dr is the are Drk the Mualal dno"
+            },
+            {
+              "temp": 0.7,
+              "text": "for ckys Witu. u. are Ay, the Bene s Armrs the the of are The cor Aing to s Does the pr"
+            }
+          ]
+        },
+        {
+          "q": "What is an atom?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "dic are, the s is the a are the So a the of carot frs is fe So F and c,. Rary Was of"
+            },
+            {
+              "temp": 0.7,
+              "text": "s and wo dflan of is the\nthe to re to of - the the Prre Bam cay The to ma Tal a clre bre The"
+            }
+          ]
+        },
+        {
+          "q": "What is acceleration?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the the the an the the e the  the the the the the the the the the the the the the the the in the the the the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "is, Wis ree Ana Fs, a the Wan\na Pe Gs. Ran The the Fe The the is to and Pean Ging can"
+            },
+            {
+              "temp": 0.7,
+              "text": "to wpes a a in t to re and Pes sr the of is s cin Ga is the the the go The My sit Bals the"
+            }
+          ]
+        },
+        {
+          "q": "What is temperature?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the the the an the the e the  the the the the the the the the the the the the the the the in the the the the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "Lranle the Ao"
+            },
+            {
+              "temp": 0.7,
+              "text": "Ffon a dye Ss the. . med a in a and Hinri Pin cis are a in of the of of The pening are c"
+            }
+          ]
+        },
+        {
+          "q": "How does a magnet work?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "d Ahfe\nan the  Rorle to Cy. men, the. a go so"
+            },
+            {
+              "temp": 0.7,
+              "text": "w, Gole\nmin  gen cfh Ces batt, Sa Boraten ma bbo Pdceorra man the - the Na\n and"
+            }
+          ]
+        }
+      ]
+    },
+    "chat_physics": {
+      "path": "runs/chat_physics/best.pt",
+      "step": 299,
+      "physics_answer_ppl": 48.85,
+      "answer_tokens": 6721,
+      "samples": [
+        {
+          "q": "What is force?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the an the in the the the  a in the the the the a the the the the the the the the the the the the the the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "Cs. a are the Sas areyic is man the to to carean the  that to SCar a in con Woe conded A -"
+            },
+            {
+              "temp": 0.7,
+              "text": "are an and the g, The Bguln, damor in M. the are Sing Tp nicer EApgat The in is Bic and The is"
+            }
+          ]
+        },
+        {
+          "q": "What is energy?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "a the in the the the  a in the the the the in the the the the the the the the the the the the the the the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "i and an The the in are cpp of stfe H in grer Nan Nup Fbit cti wistino Sfoor the for the"
+            },
+            {
+              "temp": 0.7,
+              "text": "am the rres Han aion is p, in the gat and Pcsl,ed the Sarn and s man The Tees The Sa greo l"
+            }
+          ]
+        },
+        {
+          "q": "Why is the sky blue?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the the the the a in the the the the the the the in the the the the the the the the the the the the the the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "thea the and y of of in are and The and to Son bar\n- Sass WMas, m, Bst Bpol and the Ay De Nr"
+            },
+            {
+              "temp": 0.7,
+              "text": "ofo of the s s Matan\ncor is Rg of and are and that to bi Ccand Pey the cuis mas Bp.p fyin"
+            }
+          ]
+        },
+        {
+          "q": "What is gravity?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "a the in the the the  a in the the the the the the the the the the the the the the the the the the the the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "m\ncbe is the a  an a wis mfi menub d d to walral lam in Aric dga the the of the Eo"
+            },
+            {
+              "temp": 0.7,
+              "text": "on of Sesre - the T. a the Heen fof in ddiis is gcing gas Fthe the Ga of ffoo Hinpr in"
+            }
+          ]
+        },
+        {
+          "q": "What is an atom?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "a the in the the the  a in the the the the the the the the the the the the the the the the the the the the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "at mi arp Eing are and wal mfotuan do e the a Ho. Sumfy to the gand and cbatcprel\nGatin"
+            },
+            {
+              "temp": 0.7,
+              "text": "o wule m to lon bi in the Gamp. Sd is mfed mit and, a s the mor - can to mo the be p"
+            }
+          ]
+        },
+        {
+          "q": "What is acceleration?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the in the the the  a in the the the the the the the the the the the the the the the the the the the the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "andal pS - man at it on git Fe Sr is the pis in are of\nares cho a The Pthe Bneno in is"
+            },
+            {
+              "temp": 0.7,
+              "text": "anbo itis lher and and in - Sary of in as suthe the Bon the that Pre. Aam. the the be c. and W"
+            }
+          ]
+        },
+        {
+          "q": "What is temperature?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the in the the the  a in the the the the the the the the the the the the the the the the the the the the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "scm, are Wrei, ofa d Sin Ca won eber The to. Afinic cin nen the the and the that is Nfor s"
+            },
+            {
+              "temp": 0.7,
+              "text": "yin theoand ss the w of lan Mst Mof to A Genoran in to filan Ait Hul s Waman lor Fy a"
+            }
+          ]
+        },
+        {
+          "q": "How does a magnet work?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the the the  a in the the the the the the  the the the the the the the the the the the the the the the the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "Fa, in is s the Tupen P lesks ger Bin sor. Ain s Ro and han are cSon of - Phry the"
+            },
+            {
+              "temp": 0.7,
+              "text": "w the disf and crat Gis fan thes, The the for fit s to the me cat Dly s Mncan the Spa for"
+            }
+          ]
+        }
+      ]
+    },
+    "chat_physics_lm": {
+      "path": "runs/chat_physics_lm/best.pt",
+      "step": 499,
+      "physics_answer_ppl": 54.97,
+      "answer_tokens": 6721,
+      "samples": [
+        {
+          "q": "What is force?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the c the the the the the the the the cthe  the the c cc the the the the the the the the the the  the  the the the c"
+            },
+            {
+              "temp": 0.7,
+              "text": "s are an\nthe ues Sy ho E the e  mi st is c me a s R, a and  to warre FS cher rw."
+            },
+            {
+              "temp": 0.7,
+              "text": "s hrelan and Fpfn a f and fin cis Eh S gch w and is the s t  mor ban Dratt bo Sbor"
+            }
+          ]
+        },
+        {
+          "q": "What is energy?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "c the the the the the the the the cthe  the the the c cc the the the the the the the the the  the  the the the the c"
+            },
+            {
+              "temp": 0.7,
+              "text": "polbe, mand the MmAcu and and dar SS"
+            },
+            {
+              "temp": 0.7,
+              "text": "cnn\nMat and to. drreo in rs and the a Ao s Sing Aes  the  in cns Ato  c ps pDn Bm"
+            }
+          ]
+        },
+        {
+          "q": "Why is the sky blue?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the the the the the the the the  the the the c the the c the the the the the the the the the  the the the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "is ci Adm. h o on"
+            },
+            {
+              "temp": 0.7,
+              "text": "Mfe the Min w rul Sar h"
+            }
+          ]
+        },
+        {
+          "q": "What is gravity?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "c the the the the the the the the cthe  the the the c cs the the the the the the the the the  the  the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "cy C Ap e is the in st Can pare the the Ees st hd to t wui y ws in st C and rn hn g"
+            },
+            {
+              "temp": 0.7,
+              "text": "r Bn\nw hat a in to my hn in, is cing of the"
+            }
+          ]
+        },
+        {
+          "q": "What is an atom?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "c the the the the the the the the cthe  the the the c cc the the the the the the the the the  the  the the the the c"
+            },
+            {
+              "temp": 0.7,
+              "text": "S m.al e lk dCgar cul. of, STy hnt  care a muaed and D in boly de mo of in dof"
+            },
+            {
+              "temp": 0.7,
+              "text": "Trep, o A the clch carch of  on ut o a cengl on borat in cmi rethe. e of cwrbe a"
+            }
+          ]
+        },
+        {
+          "q": "What is acceleration?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the c cthe c the the the the cthe  the the the the c the the the  the the the the the the  the  the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "uthe ms Bamoln to g pln and be cgmesn of fa a Sa foy fcraning Mot lm an the mat r"
+            },
+            {
+              "temp": 0.7,
+              "text": "the lmul B, a wuer ut molcin wdrar Can and p of mes rean and cfok ggmle wner s to p"
+            }
+          ]
+        },
+        {
+          "q": "What is temperature?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the c cthe c the the the the cthe  the the the the c the the the  the the the the the the  the  the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "of is bAAr d and wny e Amis the of o in are  reand fl A be Matus on rre ofe ls freres"
+            },
+            {
+              "temp": 0.7,
+              "text": "gToar c re the fk b w is pin wog and drepes han is be"
+            }
+          ]
+        },
+        {
+          "q": "How does a magnet work?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the c c the the the the  the the the the the  the the cthe the the the the the the the  the the the the the  the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "b fpar, e and pi the a bco matst"
+            },
+            {
+              "temp": 0.7,
+              "text": "Flar\nAar ca an lan theum and anarbamen a Tcfor cand\n ce an a rb Acis B be Cs dis Dol"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "probes": [
+    "What is force?",
+    "What is energy?",
+    "Why is the sky blue?",
+    "What is gravity?",
+    "What is an atom?",
+    "What is acceleration?",
+    "What is temperature?",
+    "How does a magnet work?"
+  ]
+}

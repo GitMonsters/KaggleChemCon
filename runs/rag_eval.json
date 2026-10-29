@@ -1,0 +1,402 @@
+{
+  "k": 4,
+  "limit_docs": 4000,
+  "generator": "extractive",
+  "recall": 1.0,
+  "mrr": 0.7792,
+  "answer_ok": 14,
+  "total": 24,
+  "rows": [
+    {
+      "question": "what is the SI unit of force",
+      "gold": "Force",
+      "terms": [
+        "newton"
+      ],
+      "top": [
+        "International System of Units",
+        "Centimetre–gram–second system of units",
+        "International System of Units"
+      ],
+      "rank": 2,
+      "grounded": true,
+      "ok": true,
+      "answer": "For example, the CGS unit of force is the dyne, which is defined as , so the SI unit of force, the newton ( ), is equal to . [2]"
+    },
+    {
+      "question": "what does Newton's second law state",
+      "gold": "Newton's laws of motion",
+      "terms": [
+        "force",
+        "mass",
+        "acceleration"
+      ],
+      "top": [
+        "Force",
+        "Lift (force)",
+        "Force"
+      ],
+      "rank": 1,
+      "grounded": true,
+      "ok": true,
+      "answer": "By substituting the definition of acceleration, the algebraic version of Newton's second law is derived: \\mathbf{F} =m\\mathbf{a}. [3]"
+    },
+    {
+      "question": "how fast does light travel in a vacuum",
+      "gold": "Speed of light",
+      "terms": [
+        "299",
+        "300",
+        "speed of light"
+      ],
+      "top": [
+        "Speed of light",
+        "Microsecond",
+        "Motion"
+      ],
+      "rank": 1,
+      "grounded": true,
+      "ok": false,
+      "answer": "* 3.33564095 microseconds – the time taken by light to travel one kilometre in a vacuum. [2]"
+    },
+    {
+      "question": "what is the force that attracts objects to the Earth",
+      "gold": "Gravity",
+      "terms": [
+        "gravit"
+      ],
+      "top": [
+        "Coriolis force",
+        "Gravity",
+        "Fundamental interaction"
+      ],
+      "rank": 2,
+      "grounded": true,
+      "ok": false,
+      "answer": "Because the Earth rotates, Earth-bound observers need to account for the Coriolis force to correctly analyze the motion of objects. [1]"
+    },
+    {
+      "question": "what is the smallest unit of a chemical element",
+      "gold": "Atom",
+      "terms": [
+        "atom"
+      ],
+      "top": [
+        "Chemistry",
+        "Classical element",
+        "Atom"
+      ],
+      "rank": 1,
+      "grounded": true,
+      "ok": true,
+      "answer": "ir smallest discrete unit, but the other isolated chemical elements consist of either molecules or networks of atoms bonded to each other in some way. [1]"
+    },
+    {
+      "question": "what is the capacity to do work called in physics",
+      "gold": "Energy",
+      "terms": [
+        "energy"
+      ],
+      "top": [
+        "Statistical mechanics",
+        "Information theory",
+        "Specific heat capacity"
+      ],
+      "rank": 3,
+      "grounded": true,
+      "ok": false,
+      "answer": "Sometimes called statistical physics or statistical thermodynamics, its applications include many problems in a wide variety of fields such as biology, neuroscience, computer science, information theo"
+    },
+    {
+      "question": "what is the study of heat and temperature called",
+      "gold": "Thermodynamics",
+      "terms": [
+        "thermodynamic"
+      ],
+      "top": [
+        "Enthalpy of vaporization",
+        "Entropy",
+        "Calorimetry"
+      ],
+      "rank": 2,
+      "grounded": true,
+      "ok": false,
+      "answer": "The heat of vaporization diminishes with increasing temperature and it vanishes completely at a certain point called the critical temperature (T = 1). [1]"
+    },
+    {
+      "question": "what is the unit of electric current",
+      "gold": "Ampere",
+      "terms": [
+        "ampere",
+        "amp"
+      ],
+      "top": [
+        "International System of Units",
+        "Electric current",
+        "Ampere"
+      ],
+      "rank": 1,
+      "grounded": true,
+      "ok": true,
+      "answer": "The ampere was originally defined as one tenth of the unit of electric current in the centimetre–gram–second system of units. [3]"
+    },
+    {
+      "question": "what is the unit of electrical resistance",
+      "gold": "Ohm",
+      "terms": [
+        "ohm"
+      ],
+      "top": [
+        "Omega",
+        "Electrical impedance",
+        "Omega"
+      ],
+      "rank": 2,
+      "grounded": true,
+      "ok": false,
+      "answer": "Adapted from the SI unit for electrical resistance. [1]"
+    },
+    {
+      "question": "what is the measure of disorder in a system",
+      "gold": "Entropy",
+      "terms": [
+        "entropy"
+      ],
+      "top": [
+        "Thermodynamic free energy",
+        "Holographic principle",
+        "Entropy"
+      ],
+      "rank": 1,
+      "grounded": true,
+      "ok": true,
+      "answer": "In thermodynamics (the branch of physics dealing with heat), entropy is popularly described as a measure of the \"disorder\" in a physical system of matter and energy. [2]"
+    },
+    {
+      "question": "what is the acceleration due to gravity on Earth",
+      "gold": "Gravity",
+      "terms": [
+        "9.8",
+        "9.81",
+        "metre per second"
+      ],
+      "top": [
+        "Torr",
+        "Torr",
+        "Pendulum"
+      ],
+      "rank": 2,
+      "grounded": true,
+      "ok": false,
+      "answer": "at is unambiguous and independent of measurements of the density of mercury or the acceleration due to gravity on Earth. [1]"
+    },
+    {
+      "question": "what is momentum in physics",
+      "gold": "Momentum",
+      "terms": [
+        "mass",
+        "velocity"
+      ],
+      "top": [
+        "Radiation pressure",
+        "Particle in a box",
+        "Quantum mechanics"
+      ],
+      "rank": 4,
+      "grounded": true,
+      "ok": true,
+      "answer": "With respect to classical physics, conservation laws include conservation of energy, mass (or matter), linear momentum, angular momentum, and electric charge. [4]"
+    },
+    {
+      "question": "what causes friction between surfaces",
+      "gold": "Friction",
+      "terms": [
+        "friction"
+      ],
+      "top": [
+        "Friction",
+        "Friction",
+        "Friction"
+      ],
+      "rank": 1,
+      "grounded": true,
+      "ok": true,
+      "answer": "Dry friction is subdivided into static friction (\"stiction\") between non-moving surfaces, and kinetic friction between moving surfaces. [2]"
+    },
+    {
+      "question": "what is the bending of light called",
+      "gold": "Refraction",
+      "terms": [
+        "refraction",
+        "refract"
+      ],
+      "top": [
+        "Rendering (computer graphics)",
+        "Light",
+        "Mineralogy"
+      ],
+      "rank": 1,
+      "grounded": true,
+      "ok": true,
+      "answer": "Refraction is the bending of light rays when they pass through a surface between one transparent material and another. [2]"
+    },
+    {
+      "question": "what particle carries a negative electric charge",
+      "gold": "Electron",
+      "terms": [
+        "electron"
+      ],
+      "top": [
+        "Lorentz force",
+        "Electricity",
+        "Positron"
+      ],
+      "rank": 2,
+      "grounded": true,
+      "ok": true,
+      "answer": "While the electron has a negative electric charge, the positron has a positive electric charge, and is produced naturally in certain types of radioactive decay. [4]"
+    },
+    {
+      "question": "what is the nucleus of an atom made of",
+      "gold": "Atomic nucleus",
+      "terms": [
+        "proton",
+        "neutron"
+      ],
+      "top": [
+        "Chemistry",
+        "Chemistry",
+        "Atom"
+      ],
+      "rank": 1,
+      "grounded": true,
+      "ok": true,
+      "answer": "The electrons of an atom are attracted to the protons in an atomic nucleus by the electromagnetic force. [3]"
+    },
+    {
+      "question": "what is the process by which a liquid becomes a gas",
+      "gold": "Evaporation",
+      "terms": [
+        "evaporat",
+        "vapori",
+        "boil"
+      ],
+      "top": [
+        "Boiling point",
+        "Hydrophobe",
+        "State of matter"
+      ],
+      "rank": 1,
+      "grounded": true,
+      "ok": false,
+      "answer": "The gas in the bubble may contain a portion of a different gas than the vapor phase of the liquid. [4]"
+    },
+    {
+      "question": "what is the unit of power in the SI system",
+      "gold": "Watt",
+      "terms": [
+        "watt"
+      ],
+      "top": [
+        "Energy",
+        "International System of Units",
+        "International System of Units"
+      ],
+      "rank": 1,
+      "grounded": true,
+      "ok": false,
+      "answer": "In the International System of Units (SI), the unit of energy is the joule. [1]"
+    },
+    {
+      "question": "what is the relationship between pressure and volume in a gas",
+      "gold": "Boyle's law",
+      "terms": [
+        "inversely",
+        "pressure",
+        "volume"
+      ],
+      "top": [
+        "Gas laws",
+        "Gas laws",
+        "Equation of state"
+      ],
+      "rank": 1,
+      "grounded": true,
+      "ok": true,
+      "answer": "In 1662, Robert Boyle systematically studied the relationship between the volume and pressure of a fixed amount of gas at a constant temperature. [1]"
+    },
+    {
+      "question": "what is the first law of thermodynamics about",
+      "gold": "First law of thermodynamics",
+      "terms": [
+        "energy",
+        "conserv"
+      ],
+      "top": [
+        "Chemical thermodynamics",
+        "Thermodynamics",
+        "Max Planck"
+      ],
+      "rank": 1,
+      "grounded": true,
+      "ok": true,
+      "answer": "In the 1840s, several researchers independently discovered and formulated the law of conservation of energy, which is now also known as the first law of thermodynamics. [3]"
+    },
+    {
+      "question": "what is the capital of France",
+      "gold": null,
+      "terms": [],
+      "top": [
+        "History of Belgium",
+        "Vilnius",
+        "Germany"
+      ],
+      "rank": 0,
+      "grounded": true,
+      "ok": false,
+      "answer": "Later, the capital of the Menapii was moved from Cassel in modern France to Tournai in Belgium. [1]"
+    },
+    {
+      "question": "who won the 1998 FIFA world cup",
+      "gold": null,
+      "terms": [],
+      "top": [
+        "1998",
+        "Roberto Baggio",
+        "Rio de Janeiro"
+      ],
+      "rank": 0,
+      "grounded": true,
+      "ok": false,
+      "answer": "* June 10–July 12 – The 1998 FIFA World Cup in France: France beats Brazil 3–0 in the FIFA World Cup Final. [1]"
+    },
+    {
+      "question": "what is the best recipe for chocolate cake",
+      "gold": null,
+      "terms": [],
+      "top": [
+        "Chocolate",
+        "Chocolate",
+        "Chocolate"
+      ],
+      "rank": 0,
+      "grounded": false,
+      "ok": true,
+      "answer": "I don't know based on the provided documents."
+    },
+    {
+      "question": "how do I fix a leaking kitchen faucet",
+      "gold": null,
+      "terms": [],
+      "top": [
+        "Apple II (original)",
+        "Tom Waits",
+        "Tom Waits"
+      ],
+      "rank": 0,
+      "grounded": false,
+      "ok": true,
+      "answer": "I don't know based on the provided documents."
+    }
+  ]
+}

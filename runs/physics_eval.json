@@ -1,0 +1,26 @@
+{
+  "n_heldout": 400,
+  "checkpoints": {
+    "base": {
+      "path": "runs/small/best.pt",
+      "step": 99,
+      "vocab": 512,
+      "physics_ppl": 220.85,
+      "chunks": 11294
+    },
+    "physics2": {
+      "path": "runs/physics2/best.pt",
+      "step": 19,
+      "vocab": 512,
+      "physics_ppl": 130.58,
+      "chunks": 11294
+    },
+    "worldmix_step49": {
+      "path": "runs/worldmix/best.pt",
+      "step": 49,
+      "vocab": 512,
+      "physics_ppl": 199.31,
+      "chunks": 11294
+    }
+  }
+}

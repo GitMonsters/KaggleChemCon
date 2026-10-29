@@ -1,0 +1,126 @@
+{
+  "checkpoints": {
+    "chat_atomic": {
+      "path": "runs/chat_atomic/best.pt",
+      "step": 499,
+      "physics_answer_ppl": 47.01,
+      "answer_tokens": 1793,
+      "samples": [
+        {
+          "q": "What is force?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "the clcles the dpu Pit and st Gis fo  the Baos lces to Rof Ho Wo a Aed the foing Nes"
+            }
+          ]
+        },
+        {
+          "q": "What is energy?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "the rean is an be is and s Fum go be The and gy Noe Sar cat fp Mes Sarer in Shre of The"
+            }
+          ]
+        },
+        {
+          "q": "Why is the sky blue?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the an the the e the  the the the the the the the the the the the the the the the in the the the the the the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "the so in Ran:. on de the of"
+            }
+          ]
+        },
+        {
+          "q": "What is gravity?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the the the the the the the the the the the the the a the the the the the the the the the the the the the the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "and was to a De inss T mcat fmus cas the is coran of the of of Sip is"
+            }
+          ]
+        },
+        {
+          "q": "What is an atom?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "the Las in leesban the a the a for Treal and a and s, in m of in to cpe Ws in"
+            }
+          ]
+        },
+        {
+          "q": "What is acceleration?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the the the an the the e the  the the the the the the the the the the the the the the the in the the the the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "Pe Cre olis is  o to kroal A\nstiic my Sars the the the and the the wed and Gon be of bhe the"
+            }
+          ]
+        },
+        {
+          "q": "What is temperature?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the the the an the the e the  the the the the the the the the the the the the the the the in the the the the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "Ce Me conle s a Shed is s the a is fin, - csts the bmk the a for to and a and mgat to"
+            }
+          ]
+        },
+        {
+          "q": "How does a magnet work?",
+          "replies": [
+            {
+              "temp": 0.0,
+              "text": "the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the"
+            },
+            {
+              "temp": 0.7,
+              "text": "an ma Hin wlrbpian, Npb or re and Plar"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "probes": [
+    "What is force?",
+    "What is energy?",
+    "Why is the sky blue?",
+    "What is gravity?",
+    "What is an atom?",
+    "What is acceleration?",
+    "What is temperature?",
+    "How does a magnet work?"
+  ]
+}

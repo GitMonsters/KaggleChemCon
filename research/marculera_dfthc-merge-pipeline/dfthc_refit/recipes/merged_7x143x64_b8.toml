@@ -1,0 +1,89 @@
+# 8-bit merged groups above the B >= 129 cliff: 7 groups of 143 vectors and 64 copies.
+# At 8 bits the state-preparation workspace drops to 304 qubits only for B >= 129, and the cost
+# model adds 514 Toffolis at every B = 16k, so B = 143 sits just below a step. With the J = 5
+# product-cache circuits (tensorqrom.py) the cost model puts T*Q at 0.78 of the (4, 255, 128) shape.
+# Seed: the public group-compression (26, 60, 30) factorization, merged in pairs to (13, 120, 64).
+
+seed = "group26"
+merge = 2
+shape = [7, 143, 64]
+
+# Drop one merged group at a time at 120 bases (cheaper steps), then grow every group to 143.
+[[train]]
+groups = 12
+bases = 120
+fade = 2000
+fit = 60000
+lr_final = 1e-5
+
+[[train]]
+groups = 11
+bases = 120
+fade = 2000
+fit = 60000
+lr_final = 1e-5
+
+[[train]]
+groups = 10
+bases = 120
+fade = 2000
+fit = 60000
+lr_final = 1e-5
+
+[[train]]
+groups = 9
+bases = 120
+fade = 2000
+fit = 60000
+lr_final = 1e-5
+
+[[train]]
+groups = 8
+bases = 120
+fade = 2000
+fit = 60000
+lr_final = 1e-5
+
+[[train]]
+groups = 7
+bases = 120
+fade = 2000
+fit = 60000
+lr_final = 1e-5
+
+# New bases start as random vectors with 1e-4 weights.
+[[train]]
+groups = 7
+fit = 150000
+lr_final = 1e-5
+
+[[train]]
+groups = 7
+fit = 150000
+lr = 3e-4
+lr_final = 2e-6
+warmup = 300
+
+# 8-bit rounding: a continuous refit first, then a fine freezing schedule (0.05%, 0.1%, ... of
+# the angles first, as in the public v8 chemistry), long refits per stage.
+[round]
+brot = 8
+free = "1.0,0.9995,0.999,0.9975,0.995,0.99,0.98,0.96,0.93,0.9,0.86,0.82,0.77,0.72,0.66,0.6,0.54,0.48,0.42,0.36,0.3,0.25,0.2,0.16,0.12,0.09,0.065,0.045,0.03,0.02,0.012,0.006,0.0"
+fit_steps = 8000
+stage_steps = 3000
+final_steps = 8000
+
+[polish]
+sweeps = 4
+steps = [-2, -1, 1, 2]
+
+[refine]
+margin = 0.0005
+
+[refit]
+target = 19.98
+margin = 0.0005
+
+[build]
+qrom = "tensor"
+shots = 64

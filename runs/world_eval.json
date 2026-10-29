@@ -1,0 +1,527 @@
+{
+  "held_docs": 200,
+  "facts": [
+    "Abraham Lincoln was the",
+    "The capital of France is",
+    "The capital of Japan is",
+    "William Shakespeare wrote",
+    "The largest planet in the solar system is",
+    "The first president of the United States was",
+    "World War II ended in",
+    "The United Nations was founded in",
+    "The author of \"Pride and Prejudice\" is",
+    "The chemical symbol for gold is",
+    "The longest river in Africa is the",
+    "The Mona Lisa was painted by",
+    "The theory of relativity was developed by",
+    "The language spoken in Brazil is",
+    "Mount Everest is located in",
+    "The human body has",
+    "A group of lions is called a",
+    "The currency of Japan is the",
+    "Charles Darwin is known for the theory of",
+    "The Roman Empire fell in the year"
+  ],
+  "checkpoints": {
+    "base": {
+      "path": "runs/small/best.pt",
+      "step": 99,
+      "world_ppl": 216.71,
+      "hits": 0,
+      "total": 40,
+      "accuracy": 0.0,
+      "rows": [
+        {
+          "prompt": "Abraham Lincoln was the",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "          "
+        },
+        {
+          "prompt": "Abraham Lincoln was the",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "          "
+        },
+        {
+          "prompt": "The capital of France is",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "      the the "
+        },
+        {
+          "prompt": "The capital of France is",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "      p and "
+        },
+        {
+          "prompt": "The capital of Japan is",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "       the the"
+        },
+        {
+          "prompt": "The capital of Japan is",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "       the A"
+        },
+        {
+          "prompt": "William Shakespeare wrote",
+          "mode": "greedy",
+          "ok": false,
+          "completion": " the        "
+        },
+        {
+          "prompt": "William Shakespeare wrote",
+          "mode": "sampled",
+          "ok": false,
+          "completion": " the        "
+        },
+        {
+          "prompt": "The largest planet in the solar system is",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "   the the    "
+        },
+        {
+          "prompt": "The largest planet in the solar system is",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "  s pgle   "
+        },
+        {
+          "prompt": "The first president of the United States was",
+          "mode": "greedy",
+          "ok": false,
+          "completion": " the the the the the"
+        },
+        {
+          "prompt": "The first president of the United States was",
+          "mode": "sampled",
+          "ok": false,
+          "completion": " for and  and the "
+        },
+        {
+          "prompt": "World War II ended in",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "          "
+        },
+        {
+          "prompt": "World War II ended in",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "          "
+        },
+        {
+          "prompt": "The United Nations was founded in",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "          "
+        },
+        {
+          "prompt": "The United Nations was founded in",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "         on"
+        },
+        {
+          "prompt": "The author of \"Pride and Prejudice\" is",
+          "mode": "greedy",
+          "ok": false,
+          "completion": " the the the the  "
+        },
+        {
+          "prompt": "The author of \"Pride and Prejudice\" is",
+          "mode": "sampled",
+          "ok": false,
+          "completion": " on the . .  "
+        },
+        {
+          "prompt": "The chemical symbol for gold is",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "         the"
+        },
+        {
+          "prompt": "The chemical symbol for gold is",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "         of"
+        },
+        {
+          "prompt": "The longest river in Africa is the",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "          "
+        },
+        {
+          "prompt": "The longest river in Africa is the",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "          "
+        },
+        {
+          "prompt": "The Mona Lisa was painted by",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "          "
+        },
+        {
+          "prompt": "The Mona Lisa was painted by",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "         f"
+        },
+        {
+          "prompt": "The theory of relativity was developed by",
+          "mode": "greedy",
+          "ok": false,
+          "completion": " the the the the  "
+        },
+        {
+          "prompt": "The theory of relativity was developed by",
+          "mode": "sampled",
+          "ok": false,
+          "completion": " , al . sed "
+        },
+        {
+          "prompt": "The language spoken in Brazil is",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "      the the "
+        },
+        {
+          "prompt": "The language spoken in Brazil is",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "      . be "
+        },
+        {
+          "prompt": "Mount Everest is located in",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "          "
+        },
+        {
+          "prompt": "Mount Everest is located in",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "          "
+        },
+        {
+          "prompt": "The human body has",
+          "mode": "greedy",
+          "ok": false,
+          "completion": " the the the the the"
+        },
+        {
+          "prompt": "The human body has",
+          "mode": "sampled",
+          "ok": false,
+          "completion": " A        "
+        },
+        {
+          "prompt": "A group of lions is called a",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "         the"
+        },
+        {
+          "prompt": "A group of lions is called a",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "         the"
+        },
+        {
+          "prompt": "The currency of Japan is the",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "     the the the"
+        },
+        {
+          "prompt": "The currency of Japan is the",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "    ed as of "
+        },
+        {
+          "prompt": "Charles Darwin is known for the theory of",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "  the the  the  "
+        },
+        {
+          "prompt": "Charles Darwin is known for the theory of",
+          "mode": "sampled",
+          "ok": false,
+          "completion": " , the de the  "
+        },
+        {
+          "prompt": "The Roman Empire fell in the year",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "       the the"
+        },
+        {
+          "prompt": "The Roman Empire fell in the year",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "       , w"
+        }
+      ]
+    },
+    "worldmix_step49": {
+      "path": "runs/worldmix/best.pt",
+      "step": 49,
+      "world_ppl": 195.23,
+      "hits": 0,
+      "total": 40,
+      "accuracy": 0.0,
+      "rows": [
+        {
+          "prompt": "Abraham Lincoln was the",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "     the the the"
+        },
+        {
+          "prompt": "Abraham Lincoln was the",
+          "mode": "sampled",
+          "ok": false,
+          "completion": " s of in be the"
+        },
+        {
+          "prompt": "The capital of France is",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "    the the the "
+        },
+        {
+          "prompt": "The capital of France is",
+          "mode": "sampled",
+          "ok": false,
+          "completion": " ar   a as and"
+        },
+        {
+          "prompt": "The capital of Japan is",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "     the the the"
+        },
+        {
+          "prompt": "The capital of Japan is",
+          "mode": "sampled",
+          "ok": false,
+          "completion": " the in and to l"
+        },
+        {
+          "prompt": "William Shakespeare wrote",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "          "
+        },
+        {
+          "prompt": "William Shakespeare wrote",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "  n       "
+        },
+        {
+          "prompt": "The largest planet in the solar system is",
+          "mode": "greedy",
+          "ok": false,
+          "completion": " the the the  the "
+        },
+        {
+          "prompt": "The largest planet in the solar system is",
+          "mode": "sampled",
+          "ok": false,
+          "completion": " the  in the cp"
+        },
+        {
+          "prompt": "The first president of the United States was",
+          "mode": "greedy",
+          "ok": false,
+          "completion": " the the the the the"
+        },
+        {
+          "prompt": "The first president of the United States was",
+          "mode": "sampled",
+          "ok": false,
+          "completion": " the B A . s"
+        },
+        {
+          "prompt": "World War II ended in",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "          "
+        },
+        {
+          "prompt": "World War II ended in",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "   a  e   "
+        },
+        {
+          "prompt": "The United Nations was founded in",
+          "mode": "greedy",
+          "ok": false,
+          "completion": " the the the the the"
+        },
+        {
+          "prompt": "The United Nations was founded in",
+          "mode": "sampled",
+          "ok": false,
+          "completion": " wi the the c "
+        },
+        {
+          "prompt": "The author of \"Pride and Prejudice\" is",
+          "mode": "greedy",
+          "ok": false,
+          "completion": " the the the the the"
+        },
+        {
+          "prompt": "The author of \"Pride and Prejudice\" is",
+          "mode": "sampled",
+          "ok": false,
+          "completion": " A s of g ."
+        },
+        {
+          "prompt": "The chemical symbol for gold is",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "       the the"
+        },
+        {
+          "prompt": "The chemical symbol for gold is",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "       m ("
+        },
+        {
+          "prompt": "The longest river in Africa is the",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "    the the the "
+        },
+        {
+          "prompt": "The longest river in Africa is the",
+          "mode": "sampled",
+          "ok": false,
+          "completion": " al  , to p "
+        },
+        {
+          "prompt": "The Mona Lisa was painted by",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "     the the the"
+        },
+        {
+          "prompt": "The Mona Lisa was painted by",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "  s  the an and"
+        },
+        {
+          "prompt": "The theory of relativity was developed by",
+          "mode": "greedy",
+          "ok": false,
+          "completion": " the the the the  "
+        },
+        {
+          "prompt": "The theory of relativity was developed by",
+          "mode": "sampled",
+          "ok": false,
+          "completion": " w as d fm "
+        },
+        {
+          "prompt": "The language spoken in Brazil is",
+          "mode": "greedy",
+          "ok": false,
+          "completion": " the the the the the"
+        },
+        {
+          "prompt": "The language spoken in Brazil is",
+          "mode": "sampled",
+          "ok": false,
+          "completion": " p  , g the "
+        },
+        {
+          "prompt": "Mount Everest is located in",
+          "mode": "greedy",
+          "ok": false,
+          "completion": " the the the the the"
+        },
+        {
+          "prompt": "Mount Everest is located in",
+          "mode": "sampled",
+          "ok": false,
+          "completion": " ar of to a the"
+        },
+        {
+          "prompt": "The human body has",
+          "mode": "greedy",
+          "ok": false,
+          "completion": " the the the the the"
+        },
+        {
+          "prompt": "The human body has",
+          "mode": "sampled",
+          "ok": false,
+          "completion": " to l f  and "
+        },
+        {
+          "prompt": "A group of lions is called a",
+          "mode": "greedy",
+          "ok": false,
+          "completion": "    the the the "
+        },
+        {
+          "prompt": "A group of lions is called a",
+          "mode": "sampled",
+          "ok": false,
+          "completion": "   the Mc a "
+        },
+        {
+          "prompt": "The currency of Japan is the",
+          "mode": "greedy",
+          "ok": false,
+          "completion": " the the the the the"
+        },
+        {
+          "prompt": "The currency of Japan is the",
+          "mode": "sampled",
+          "ok": false,
+          "completion": " . c fn an "
+        },
+        {
+          "prompt": "Charles Darwin is known for the theory of",
+          "mode": "greedy",
+          "ok": false,
+          "completion": " the the the the  "
+        },
+        {
+          "prompt": "Charles Darwin is known for the theory of",
+          "mode": "sampled",
+          "ok": false,
+          "completion": " d m an the  "
+        },
+        {
+          "prompt": "The Roman Empire fell in the year",
+          "mode": "greedy",
+          "ok": false,
+          "completion": " the the the the the"
+        },
+        {
+          "prompt": "The Roman Empire fell in the year",
+          "mode": "sampled",
+          "ok": false,
+          "completion": " an re a of ."
+        }
+      ]
+    }
+  }
+}

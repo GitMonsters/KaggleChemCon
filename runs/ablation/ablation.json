@@ -1,0 +1,30 @@
+{
+  "config": {
+    "steps": 300,
+    "batch": 16,
+    "ctx": 128,
+    "d_model": 128,
+    "n_layer": 2,
+    "lr": 0.003,
+    "max_bytes": 3000000
+  },
+  "leaky": {
+    "name": "leaky",
+    "causal": false,
+    "params_m": 0.46,
+    "train_time_s": 192.3,
+    "native_mode_ppl": 1.006,
+    "honest_causal_ppl": 1.133,
+    "sample": "the                                 alalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalal"
+  },
+  "causal": {
+    "name": "causal",
+    "causal": true,
+    "params_m": 0.46,
+    "train_time_s": 198.8,
+    "native_mode_ppl": 1.025,
+    "honest_causal_ppl": 1.025,
+    "sample": "thethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethe"
+  },
+  "interpretation": "The leaky model scores better ONLY under its own non-causal measurement: position i reads the answer from position i+1's input embedding. Under the honest causal measurement (and in generation) the advantage disappears."
+}

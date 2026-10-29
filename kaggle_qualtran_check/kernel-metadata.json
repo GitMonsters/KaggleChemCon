@@ -1,0 +1,1 @@
+{"id": "evanpieser/qualtran-check", "title": "qualtran-check", "code_file": "qualtran_check.ipynb", "language": "python", "kernel_type": "notebook", "is_private": true, "enable_gpu": false, "enable_tpu": false, "enable_internet": true, "dataset_sources": [], "competition_sources": ["google-verifiable-quantum-circuit-compilation"], "kernel_sources": []}

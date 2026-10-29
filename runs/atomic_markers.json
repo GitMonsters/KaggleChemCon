@@ -1,0 +1,158 @@
+{
+  "checkpoints": {
+    "subword": {
+      "path": "runs/chat/best.pt",
+      "step": 499,
+      "vocab": 512,
+      "atomic_markers": false,
+      "params": 3286304,
+      "stopped_on_own": 0,
+      "n_prompts": 6,
+      "e_rank_min": 332,
+      "e_rank_max": 340,
+      "rows": [
+        {
+          "q": "What is the capital of France?",
+          "e_rank": 335,
+          "e_logit": -3.837,
+          "argmax_is_e": false,
+          "stopped": false,
+          "stop_step": null,
+          "tokens": 96,
+          "reply": "the the the the the the the in the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the"
+        },
+        {
+          "q": "Give me one tip for learning a new language.",
+          "e_rank": 340,
+          "e_logit": -4.131,
+          "argmax_is_e": false,
+          "stopped": false,
+          "stop_step": null,
+          "tokens": 96,
+          "reply": "the the in the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the"
+        },
+        {
+          "q": "Hello, how are you today?",
+          "e_rank": 338,
+          "e_logit": -4.112,
+          "argmax_is_e": false,
+          "stopped": false,
+          "stop_step": null,
+          "tokens": 96,
+          "reply": "the the the the the the the the in the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the"
+        },
+        {
+          "q": "Why is the sky blue?",
+          "e_rank": 338,
+          "e_logit": -4.129,
+          "argmax_is_e": false,
+          "stopped": false,
+          "stop_step": null,
+          "tokens": 96,
+          "reply": "the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the"
+        },
+        {
+          "q": "Write one sentence about the ocean.",
+          "e_rank": 332,
+          "e_logit": -3.658,
+          "argmax_is_e": false,
+          "stopped": false,
+          "stop_step": null,
+          "tokens": 96,
+          "reply": "the the the the the the the the in the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the"
+        },
+        {
+          "q": "What is a black hole?",
+          "e_rank": 336,
+          "e_logit": -3.761,
+          "argmax_is_e": false,
+          "stopped": false,
+          "stop_step": null,
+          "tokens": 96,
+          "reply": "the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the"
+        }
+      ]
+    },
+    "atomic": {
+      "path": "runs/chat_atomic/best.pt",
+      "step": 499,
+      "vocab": 516,
+      "atomic_markers": true,
+      "params": 3287328,
+      "stopped_on_own": 0,
+      "n_prompts": 6,
+      "e_rank_min": 66,
+      "e_rank_max": 251,
+      "rows": [
+        {
+          "q": "What is the capital of France?",
+          "e_rank": 236,
+          "e_logit": -1.233,
+          "argmax_is_e": false,
+          "stopped": false,
+          "stop_step": null,
+          "tokens": 96,
+          "reply": "the the an the  the the the the the the the the the the the the the the the in the the the the the the the the the the the the the the the the the the the the the the the the the the the the"
+        },
+        {
+          "q": "Give me one tip for learning a new language.",
+          "e_rank": 66,
+          "e_logit": 0.295,
+          "argmax_is_e": false,
+          "stopped": false,
+          "stop_step": null,
+          "tokens": 96,
+          "reply": "the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the"
+        },
+        {
+          "q": "Hello, how are you today?",
+          "e_rank": 251,
+          "e_logit": -1.403,
+          "argmax_is_e": false,
+          "stopped": false,
+          "stop_step": null,
+          "tokens": 96,
+          "reply": "the a the the e the  the the the the the the the the the the the the the the the in the the the the the the the the the the the the the the the the the the the the the the the the the the"
+        },
+        {
+          "q": "Why is the sky blue?",
+          "e_rank": 250,
+          "e_logit": -1.368,
+          "argmax_is_e": false,
+          "stopped": false,
+          "stop_step": null,
+          "tokens": 96,
+          "reply": "the an the the e the  the the the the the the the the the the the the the the the in the the the the the the the the the the the the the the the the the the the the the the the the the the"
+        },
+        {
+          "q": "Write one sentence about the ocean.",
+          "e_rank": 244,
+          "e_logit": -1.314,
+          "argmax_is_e": false,
+          "stopped": false,
+          "stop_step": null,
+          "tokens": 96,
+          "reply": "the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the"
+        },
+        {
+          "q": "What is a black hole?",
+          "e_rank": 237,
+          "e_logit": -1.245,
+          "argmax_is_e": false,
+          "stopped": false,
+          "stop_step": null,
+          "tokens": 96,
+          "reply": "the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the"
+        }
+      ]
+    }
+  },
+  "prompts": [
+    "What is the capital of France?",
+    "Give me one tip for learning a new language.",
+    "Hello, how are you today?",
+    "Why is the sky blue?",
+    "Write one sentence about the ocean.",
+    "What is a black hole?"
+  ]
+}

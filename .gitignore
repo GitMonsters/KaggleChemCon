@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Large binaries
+*.kmb
+*.kmx
+*.npz
+*.npy
+*.zip
+*.so
+*.fcidump
+
+# Kaggle results (large)
+kaggle_results*/
+kaggle_*_output*/
+research/*_output/
+
+# Temp files
+*.log
+*.partial
+
+# IDE
+.vscode/
+.idea/

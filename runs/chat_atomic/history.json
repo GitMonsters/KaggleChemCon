@@ -1,0 +1,367 @@
+{
+  "steps": [
+    {
+      "step": 0,
+      "lr": 5e-06,
+      "loss": 4.5343
+    },
+    {
+      "step": 10,
+      "lr": 5.5e-05,
+      "loss": 4.5075
+    },
+    {
+      "step": 20,
+      "lr": 0.000105,
+      "loss": 4.3549
+    },
+    {
+      "step": 30,
+      "lr": 0.000155,
+      "loss": 4.4982
+    },
+    {
+      "step": 40,
+      "lr": 0.000205,
+      "loss": 4.4195
+    },
+    {
+      "step": 50,
+      "lr": 0.000255,
+      "loss": 4.4906
+    },
+    {
+      "step": 60,
+      "lr": 0.0003,
+      "loss": 4.2172
+    },
+    {
+      "step": 70,
+      "lr": 0.0003,
+      "loss": 4.3793
+    },
+    {
+      "step": 80,
+      "lr": 0.000299,
+      "loss": 4.1598
+    },
+    {
+      "step": 90,
+      "lr": 0.000298,
+      "loss": 4.4535
+    },
+    {
+      "step": 100,
+      "lr": 0.000296,
+      "loss": 4.0881
+    },
+    {
+      "step": 110,
+      "lr": 0.000294,
+      "loss": 4.1802
+    },
+    {
+      "step": 120,
+      "lr": 0.000292,
+      "loss": 4.151
+    },
+    {
+      "step": 130,
+      "lr": 0.000289,
+      "loss": 4.2204
+    },
+    {
+      "step": 140,
+      "lr": 0.000286,
+      "loss": 4.348
+    },
+    {
+      "step": 150,
+      "lr": 0.000282,
+      "loss": 4.0569
+    },
+    {
+      "step": 160,
+      "lr": 0.000278,
+      "loss": 4.4028
+    },
+    {
+      "step": 170,
+      "lr": 0.000273,
+      "loss": 4.1872
+    },
+    {
+      "step": 180,
+      "lr": 0.000268,
+      "loss": 4.1283
+    },
+    {
+      "step": 190,
+      "lr": 0.000263,
+      "loss": 4.1442
+    },
+    {
+      "step": 200,
+      "lr": 0.000258,
+      "loss": 4.5289
+    },
+    {
+      "step": 210,
+      "lr": 0.000252,
+      "loss": 4.5597
+    },
+    {
+      "step": 220,
+      "lr": 0.000246,
+      "loss": 4.1713
+    },
+    {
+      "step": 230,
+      "lr": 0.000239,
+      "loss": 4.3434
+    },
+    {
+      "step": 240,
+      "lr": 0.000232,
+      "loss": 4.0916
+    },
+    {
+      "step": 250,
+      "lr": 0.000226,
+      "loss": 4.0395
+    },
+    {
+      "step": 260,
+      "lr": 0.000218,
+      "loss": 4.2128
+    },
+    {
+      "step": 270,
+      "lr": 0.000211,
+      "loss": 4.0435
+    },
+    {
+      "step": 280,
+      "lr": 0.000204,
+      "loss": 3.9928
+    },
+    {
+      "step": 290,
+      "lr": 0.000196,
+      "loss": 4.0678
+    },
+    {
+      "step": 300,
+      "lr": 0.000188,
+      "loss": 4.2605
+    },
+    {
+      "step": 310,
+      "lr": 0.000181,
+      "loss": 4.0134
+    },
+    {
+      "step": 320,
+      "lr": 0.000173,
+      "loss": 4.1928
+    },
+    {
+      "step": 330,
+      "lr": 0.000165,
+      "loss": 4.0383
+    },
+    {
+      "step": 340,
+      "lr": 0.000157,
+      "loss": 4.0317
+    },
+    {
+      "step": 350,
+      "lr": 0.000149,
+      "loss": 4.0559
+    },
+    {
+      "step": 360,
+      "lr": 0.000142,
+      "loss": 4.1531
+    },
+    {
+      "step": 370,
+      "lr": 0.000134,
+      "loss": 4.1751
+    },
+    {
+      "step": 380,
+      "lr": 0.000126,
+      "loss": 4.1197
+    },
+    {
+      "step": 390,
+      "lr": 0.000119,
+      "loss": 4.1064
+    },
+    {
+      "step": 400,
+      "lr": 0.000112,
+      "loss": 4.1881
+    },
+    {
+      "step": 410,
+      "lr": 0.000104,
+      "loss": 4.0598
+    },
+    {
+      "step": 420,
+      "lr": 9.8e-05,
+      "loss": 4.1174
+    },
+    {
+      "step": 430,
+      "lr": 9.1e-05,
+      "loss": 4.1222
+    },
+    {
+      "step": 440,
+      "lr": 8.4e-05,
+      "loss": 4.0206
+    },
+    {
+      "step": 450,
+      "lr": 7.8e-05,
+      "loss": 3.956
+    },
+    {
+      "step": 460,
+      "lr": 7.2e-05,
+      "loss": 4.0435
+    },
+    {
+      "step": 470,
+      "lr": 6.7e-05,
+      "loss": 3.9753
+    },
+    {
+      "step": 480,
+      "lr": 6.2e-05,
+      "loss": 4.0979
+    },
+    {
+      "step": 490,
+      "lr": 5.7e-05,
+      "loss": 4.3817
+    },
+    {
+      "step": 500,
+      "lr": 5.2e-05,
+      "loss": 4.0612
+    },
+    {
+      "step": 510,
+      "lr": 4.8e-05,
+      "loss": 4.0431
+    },
+    {
+      "step": 520,
+      "lr": 4.4e-05,
+      "loss": 4.0193
+    },
+    {
+      "step": 530,
+      "lr": 4.1e-05,
+      "loss": 4.1046
+    },
+    {
+      "step": 540,
+      "lr": 3.8e-05,
+      "loss": 4.0411
+    },
+    {
+      "step": 550,
+      "lr": 3.6e-05,
+      "loss": 4.0358
+    },
+    {
+      "step": 560,
+      "lr": 3.4e-05,
+      "loss": 3.9205
+    },
+    {
+      "step": 570,
+      "lr": 3.2e-05,
+      "loss": 4.1663
+    },
+    {
+      "step": 580,
+      "lr": 3.1e-05,
+      "loss": 4.0436
+    },
+    {
+      "step": 590,
+      "lr": 3e-05,
+      "loss": 4.0146
+    },
+    {
+      "step": 599,
+      "lr": 3e-05,
+      "loss": 3.9985
+    }
+  ],
+  "val": [
+    {
+      "step": 99,
+      "val_ppl": 85.417
+    },
+    {
+      "step": 199,
+      "val_ppl": 95.87
+    },
+    {
+      "step": 299,
+      "val_ppl": 57.569
+    },
+    {
+      "step": 399,
+      "val_ppl": 65.329
+    },
+    {
+      "step": 499,
+      "val_ppl": 53.347
+    },
+    {
+      "step": 599,
+      "val_ppl": 56.398
+    }
+  ],
+  "samples": [
+    {
+      "step": 199,
+      "q": "What is the capital of France?",
+      "a": "on    ed,  a re     , s,     ing    l   y o   es       ar             es     al"
+    },
+    {
+      "step": 199,
+      "q": "Give me one tip for learning a new language.",
+      "a": "is d s  , en"
+    },
+    {
+      "step": 399,
+      "q": "What is the capital of France?",
+      "a": "in t n, n can the es a s in. it pk s e g and a oal at, and gar o f d an eral and f r pi ar go w or m"
+    },
+    {
+      "step": 399,
+      "q": "Give me one tip for learning a new language.",
+      "a": "Sn i is dy  hcuen are re o eral, it or or cam w n the . s e o on uh. in g. in is oal u\nin is cis to"
+    },
+    {
+      "step": 599,
+      "q": "What is the capital of France?",
+      "a": "fk and or a are e on der on cing fen d a the lin are is paty sic, in to wues pr is The sting The B  oer The s to"
+    },
+    {
+      "step": 599,
+      "q": "Give me one tip for learning a new language.",
+      "a": "e is or ueric of my lpt in, e in  cre, a fam. ri, o le, al. s"
+    }
+  ]
+}

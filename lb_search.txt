@@ -1,0 +1,172 @@
+Total entries: 1303
+MATCH: Rank=87 Name=Akmal Xodarev (Busya PRIME) Score=21.88210 Subs=15
+MATCH: Rank=88 Name=Rian Score=21.88210 Subs=15
+MATCH: Rank=89 Name=НИКОЛАЙ ДЕСИПТИКОН Score=21.88210 Subs=4
+MATCH: Rank=204 Name=Devansh Rajput Score=21.87960 Subs=4
+MATCH: Rank=506 Name=evan Score=20.57453 Subs=9
+MATCH: Rank=1049 Name=Revanth Tambisetty Score=2.43167 Subs=5
+
+Top 15:
+  1 Breaking1800 25.62911
+  2 Schrödinger’s cat lived 24.03231
+  3 Thinking... 23.79988
+  4 Zyy7390 23.66860
+  5 Jack 23.48356
+  6 Distortion!! 23.44490
+  7 Schrödinger's ZZZ 23.43390
+  8 Slingshot Effect 22.97273
+  9 shyjin 22.94242
+  10 Riemann 22.86405
+  11 Kevin Bogner 22.83577
+  12 VAGO Superposition 22.72031
+  13 bunnywasnothere 22.69946
+  14 Adisak Sukul 22.43799
+  15 Bingran You 22.40372
+
+Around 21.88:
+  76 hongli153426 21.89963
+  77 goliard 21.89747
+  78 WK Lee 21.89740
+  79 Nevska 21.89396
+  80 田村さんを囲む会 21.89152
+  81 THREEOFOUR 21.88996
+  82 Subhanjan 21.88717
+  83 frakyn 21.88344
+  84 Alessandro Summer 21.88322
+  85 ctree4113 21.88270
+  86 Rajibss 21.88256
+  87 Akmal Xodarev (Busya PRIME) 21.88210
+  88 Rian 21.88210
+  89 НИКОЛАЙ ДЕСИПТИКОН 21.88210
+  90 synsis 21.88128
+  91 VecNull 21.88089
+  92 Borrun 21.88044
+  93 Kailan Shang 21.88009
+  94 Yash Mohan 21.87980
+  95 Sergei Uskov 21.87979
+  96 Nicolò Angileri 21.87979
+  97 yuiop! 21.87978
+  98 Vitali Hisko 21.87978
+  99 VKAS 21.87977
+  100 Nilanjan_Saha123 21.87977
+  101 Abdelghani Charouiti 21.87977
+  102 Дворкин Евгений Владимирович 21.87976
+  103 бургер кинг говно 21.87976
+  104 Mudit Chaturvedi 21.87976
+  105 Guillermo Perez G 21.87976
+  106 Lonnie 21.87976
+  107 Syed Asad Ali 21.87976
+  108 TuringIRL(akshit) 21.87976
+  109 Arun P Idiculla 21.87976
+  110 tammamalasha 21.87975
+  111 Mahmoud Nasser 21.87975
+  112 none 21.87975
+  113 Simulation 21.87975
+  114 Gengsr 21.87966
+  115 Syed Inayatullah 21.87966
+  116 FABRICIO DA SILVA 21.87966
+  117 Nikhil S Gowda 21.87963
+  118 JezzLynn 21.87961
+  119 Bhupendra Singh 21.87961
+  120 Naveen Bijalwan 21.87961
+  121 Hugo Valer Rojas 21.87960
+  122 Azamat Sarsembay 21.87960
+  123 Андрей  Гундырев 21.87960
+  124 Akashneelesh2 21.87960
+  125 Rafael Su 21.87960
+  126 EyobAleB 21.87960
+  127 Pedro_Shi07 21.87960
+  128 Aviral Garg 21.87960
+  129 Valerio Dolci 21.87960
+  130 test_qc 21.87960
+  131 PromptEngineer48 21.87960
+  132 Vivaan Satija 21.87960
+  133 Charanno 21.87960
+  134 bill123987 21.87960
+  135 Michael Rustad 21.87960
+  136 Syed Naazim Hussain 21.87960
+  137 Baidalin Adilzhan [dsmlkz] 21.87960
+  138 Yanamii 21.87960
+  139 Rafi Khairan 21.87960
+  140 Kirderf 21.87960
+  141 Jay Shrivastava 21.87960
+  142 simmons1025 21.87960
+  143 shelby1ex 21.87960
+  144 today 21.87960
+  145 Tergel Munkhbat 21.87960
+  146 E-Max AI 21.87960
+  147 amit kumar2245 21.87960
+  148 ACoder 21.87960
+  149 YAJANT NATH TRIPATHI 21.87960
+  150 Ganesha 21.87960
+  151 ENES CAN 21.87960
+  152 Aneesh 21.87960
+  153 Leonardo Domingues 21.87960
+  154 SleepyMegaCat 21.87960
+  155 邓紫棋牛逼 21.87960
+  156 FOYSAL 21.87960
+  157 HY2017 21.87960
+  158 ChengFoon0602 21.87960
+  159 Wrenn 21.87960
+  160 Rishabh Sharma 21.87960
+  161 Eccentric Chicken Enthusiasts 21.87960
+  162 Yorix.um 21.87960
+  163 Михаил 21.87960
+  164 Takumu Hata 21.87960
+  165 Aditya Goyal 21.87960
+  166 nbifrye 21.87960
+  167 ธนากร หาญวงค์ 21.87960
+  168 SeshuRaju 🧘‍♂️ 21.87960
+  169 xiuo55 21.87960
+  170 Andres Sanchez 21.87960
+  171 Jesse840 21.87960
+  172 anngle 21.87960
+  173 iheng88 21.87960
+  174 Lilybunny 21.87960
+  175 d46ak88 21.87960
+  176 Fususu 21.87960
+  177 Dmitry Abulkhanov 21.87960
+  178 Bill1111 21.87960
+  179 Harshit Kumar 21.87960
+  180 Pravin Takpire 21.87960
+  181 Mizero Lucky Gall 21.87960
+  182 SC 21.87960
+  183 Yash 21.87960
+  184 박범도 20231977 21.87960
+  185 Ranak Narwan 21.87960
+  186 α**β 21.87960
+  187 Hisham Nabil Alsaghier 21.87960
+  188 Andrei Dubasov 21.87960
+  189 Junichiro Morita 21.87960
+  190 Yuri-M-Dias 21.87960
+  191 Qai 21.87960
+  192 HongchenDai 21.87960
+  193 PavelLiashkov 21.87960
+  194 easonyanyan 21.87960
+  195 Galaxy A55 21.87960
+  196 Pieter Oehlers 21.87960
+  197 Shohrux Azizov 21.87960
+  198 Andrew J Sanderson 21.87960
+  199 Tamzid Ullah 21.87960
+  200 Nhan D Nguyen 21.87960
+  201 Dr ChandraShekar 21.87960
+  202 Grim Reaper 21.87960
+  203 Juan Correa Zapien 21.87960
+  204 Devansh Rajput 21.87960
+  205 Kotaro Terada 21.87960
+  206 Siya Chauhan . 69 21.87960
+  207 Ramana Prabhu Sana 21.87960
+  208 Gaurav Vyas 21.87960
+  209 baolong lin1 21.87960
+  210 Lukáš Dang 21.87960
+  211 Kirill Khoruzhii 21.87960
+  212 Harsh Jain 21.87960
+  213 Yuanchen Huang 21.87960
+  214 fengyuexin huang 21.87960
+  215 Matias Poullain 21.87960
+  216 karinkaito 21.87960
+  217 Spektra 21.87960
+  218 Valifor 21.87735
+  219 xcode7 21.87693
+  220 Hengyuan Liu07 21.87073
+  221 Vadim Borisov 21.85292

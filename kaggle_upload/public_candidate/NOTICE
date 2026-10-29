@@ -1,0 +1,24 @@
+Derived J5 compiler: Vladislav Lavrentev, 2026.
+Base generic kernel-relation emitter: Ahmed Berat Ozer, public v8 components, Apache 2.0.
+Paired-product kernel, prefix cache and HMR emitter: mrmeows, Apache 2.0, with credited predecessors.
+
+# DQI circuit `dqi.kmb.xz` (notebook version 8)
+
+`dqi.kmb` (xz-compressed here) is a splice of two public decoders plus a Toffoli-free projection:
+
+- **Decoder:** the raw continued-fraction Schur decoder with destructive quotient recovery.
+  - Source: jday96314's public GitHub repository [QuantumAI](https://github.com/jday96314/QuantumAI), round 6, `initial_experiments/6/agent14`, builder `build_raw_cf_destructive.py`.
+  - The repository does not state a license. All credit for the decoder design and its code goes to jday96314; contact them before reusing the code itself.
+- **883-qubit build:** alex chilton's rebuild with a narrower reverse synthesis. It is the output of version 29 of [*Toffolis Go*](https://www.kaggle.com/code/alexchilton/toffolis-go-18-3-schur-dqi-at-883-qubits), SHA-256 `26369ae8…`. Every block except the middle one is copied unchanged from it.
+- **Middle block (ours: the splice and the adapters):**
+  - The Schur decoder's amplitude conversion `C = A/B′ mod B` costs 80,475 Toffolis forward and 82,726 in the inverse.
+  - We replaced it with the central half-degree Bézout transform (`hankel_half.transform` + `central_border`) of mrmeows' round17 decoder, which costs 73,162 Toffolis each way. Its output is the same amplitude polynomial, so the scan is unchanged.
+  - The adapters are Toffoli-free: coefficient reversal, 17 word swaps and CNOT basis changes.
+  - Source: [mrmeows/qcc-1375-open-circuits](https://www.kaggle.com/datasets/mrmeows/qcc-1375-open-circuits), `source/dqi_q870`, Apache-2.0. That code builds on Dmitrii Gluzdov's round12 source, with SomeJoint / Agniv Banerjee's Bézout–Hankel phase solve, ViberTeam's and Phuc Thai's work.
+- **Mask projection:** round17's `fast_mask_projection`, based on manwithacat's idea. It is a classical XOR network with classically controlled Z on the syndrome, uses no Toffolis, and lets the scan skip 70 points.
+
+The splice scripts are in `src/dqi_bez/`.
+
+**Result:** 883 qubits, mean 519,152 Toffolis, 3.3 % below alex chilton's version 29.
+
+On identical simulated shots (same `--seed`), the failures of this circuit are a subset of version 29's failures.

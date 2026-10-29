@@ -1,0 +1,14 @@
+{
+  "id": "evanpieser/qcompile-public-verifier",
+  "title": "qcompile-public-verifier",
+  "code_file": "verify_public_candidate.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "dataset_sources": ["evanpieser/qcompile-verifiable"],
+  "competition_sources": ["google-verifiable-quantum-circuit-compilation"],
+  "kernel_sources": []
+}

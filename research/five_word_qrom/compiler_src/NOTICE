@@ -1,0 +1,3 @@
+Derived J5 compiler: Vladislav Lavrentev, 2026.
+Base generic kernel-relation emitter: Ahmed Berat Ozer, public v8 components, Apache 2.0.
+Paired-product kernel, prefix cache and HMR emitter: mrmeows, Apache 2.0, with credited predecessors.

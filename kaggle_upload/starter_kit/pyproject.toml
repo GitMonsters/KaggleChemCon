@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dfthc"
+version = "0.0.1"
+authors = [
+  { name="Guang Hao Low" },
+]
+description = "Compute factorization of chemistry problems by Double Factorized Tensor Hyper-Contraction (DFTHC)"
+readme = "README.md"
+requires-python = ">=3.13"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "numpy",
+  "h5py",
+  "jax",
+  "optax"
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+# dfthc.verify_*, dfthc.build_angle_k, dfthc.dfthc_u_to_tei and starter/.
+# verifier/ itself is self-contained: numpy, scipy and kickmix only.
+verify = [
+  "scipy",
+  "openfermion",
+  "attrs",
+  "qualtran @ git+https://github.com/quantumlib/Qualtran.git@c58703d00b01c346d3e77d3913cf2d6e9e556be3",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["dfthc", "dfthc.*", "starter", "starter.*", "verifier", "verifier.*"]
+
+# This table makes this directory pytest's root, so pytest's defaults (test_*.py)
+# apply here even when the directory sits inside another project, such as
+# qaggle/dfthcsos/src, whose own pytest settings would otherwise be used.
+[tool.pytest.ini_options]
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleproject/issues"
